@@ -21,8 +21,16 @@ header{
         .icon-head-tel{background: url('../images/icon-head-tel.png') center center no-repeat;height: 17px;width: 17px;display: inline-block;vertical-align: middle;margin-right: 5px;}
         span{display: inline-block;color: #fff;font-size: 19px;vertical-align: middle;text-transform: uppercase;}
     }
-    .header-middle{text-align: center;color: #fff;
-        .header-tab-top-title{font-size: 72px;}
+    .header-middle{text-align: center;color: #fff;padding-top: 170px;
+        .header-tab-top-title{position: relative;
+            h3{font-size: 72px;text-transform: uppercase;}
+            &:after{content: "";}
+        }
+
+        .header-tab-top-item{max-width: 925px;margin: 0 auto;
+        }
+        .header-tab-top-desc{font-size: 24px;color: white;}
+        .header-tab-top{padding-top: 36px;line-height: 31px;}
     }
 
 

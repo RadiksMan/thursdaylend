@@ -1,4 +1,46 @@
-.review-wrap .head-review {
-  font-family: 'Myriad Pro';
-  font-size: 36px;
+.review-wrap-all {
+  padding-top: 65px;
+  background-image: url("/images/background-reviw.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+  min-width: 1280px;
+  background-position: center center;
+}
+
+.review-wrap-all .review-wrap {
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.review-wrap-all .review-wrap .review {
+  display: inline-block;
+  width: 45%;
+  padding-top: 75px;
+  padding-bottom: 60px;
+}
+
+.review-wrap-all .review-wrap .review .human-face {
+  float: left;
+  padding-top: 20px;
+}
+
+.review-wrap-all .review-wrap .review .converttext {
+  padding-left: 150px;
+}
+
+.review-wrap-all .review-wrap .review .converttext .name {
+  text-align: left;
+  font-family: 'calibri';
+  font-size: 30px;
+}
+
+.review-wrap-all .review-wrap .review .converttext .post {
+  text-align: left;
+  font-family: 'calibri';
+  font-size: 18px;
+  font-style: italic;
+  color: #707070;
 }
