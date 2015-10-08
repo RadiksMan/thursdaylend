@@ -111,14 +111,12 @@
 						<img src="images/logo.png" alt="">
 					</div>
 					<div class="header-nav">
-						<nav>
-							<ul class="cfix">
+							<ul class="cfix-after">
 								<li><a href="#"><span>О нас</span></a></li>
 								<li><a href="#"><span>Новости</span></a></li>
 								<li><a href="#"><span>Вакансии</span></a></li>
 								<li><a href="#"><span>Контакты</span></a></li>
 							</ul>
-						</nav>
 					</div>
 					<div class="header-tel">
 						<a href="tel:+74953696082"><span>+7&nbsp;(495)&nbsp;369&nbsp;60&nbsp;82</span></a>
