@@ -106,7 +106,7 @@
 	<header class="header <?php  echo $act;?>">
 		<div class="header-wrap">
 			<div class="mbox">
-				<div class="header-top cfix">
+				<div class="header-top cfix-after">
 					<div class="header-logo">
 						<img src="images/logo.png" alt="">
 					</div>
@@ -122,7 +122,7 @@
 						<a href="tel:+74953696082"><span>+7&nbsp;(495)&nbsp;369&nbsp;60&nbsp;82</span></a>
 					</div>
 				</div>
-				<div class="header-sub-top">
+				<div class="header-sub-top cfix-after">
 					<div class="header-sub-top-zvonok">
 						<a href="#">
 							<span class="icon icon-head-tel"></span>
@@ -164,7 +164,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="header-pagination">
 						<div class="header-pagination-wrap cfix">
 							<div class="header-pagination-left">
