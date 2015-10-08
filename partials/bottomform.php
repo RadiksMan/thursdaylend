@@ -2,7 +2,7 @@
 	<div class="mbox">
 		<div class="top-form">
 			<div class="content-top-form cfix-after">
-				<h2>заказать консультацию</h2>
+				<h2>заказать звонок</h2>
 				<p class="top-form-text">Быстро развивающаяся компания, работающая в таких направлениях, как Мерчендайзинг, Стаффинг и Аутстаффинг персонала</p>
 				<div class="form-top-wrap cfix-after">
 					<form action="" method="POST" class="form-top">

@@ -1,1 +1,2 @@
 <?partial('topform')?>
+<?partial('bottomform')?>
