@@ -1,0 +1,26 @@
+/*header*/
+header.autsor .header-wrap {
+  background-color: #0b2839;
+  background: url("../images/header-autsor-bg.jpg") center center no-repeat;
+}
+
+header.autsor .header-top .header-logo {
+  float: left;
+}
+
+header.autsor .header-top .header-nav {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+}
+
+header.autsor .header-top .header-nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+header.autsor .header-top .header-nav a {
+  display: block;
+  padding: 10px 0px;
+}
