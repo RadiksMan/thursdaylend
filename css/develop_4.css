@@ -79,8 +79,33 @@ header .header-sub-top-zvonok span {
 header .header-middle {
   text-align: center;
   color: #fff;
+  padding-top: 170px;
 }
 
 header .header-middle .header-tab-top-title {
+  position: relative;
+}
+
+header .header-middle .header-tab-top-title h3 {
   font-size: 72px;
+  text-transform: uppercase;
+}
+
+header .header-middle .header-tab-top-title:after {
+  content: "";
+}
+
+header .header-middle .header-tab-top-item {
+  max-width: 925px;
+  margin: 0 auto;
+}
+
+header .header-middle .header-tab-top-desc {
+  font-size: 24px;
+  color: white;
+}
+
+header .header-middle .header-tab-top {
+  padding-top: 36px;
+  line-height: 31px;
 }

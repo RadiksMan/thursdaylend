@@ -94,7 +94,9 @@
 			</div>
 		</section>
 
-		<section class="animate-section">
+
+		<section class="review-wrap-all animate-section">
+
 			<div class="mbox">
 				<div class="title"><span>отзывы</span></div>
 				<!-- artem calls -->
