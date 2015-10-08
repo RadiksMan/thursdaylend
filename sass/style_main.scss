@@ -1,13 +1,23 @@
 /* basic styles */
 
-.title{font-family: 'Calibri', sans-serif;font-size: 36px;color: #010000;text-transform: uppercase;text-align: center;padding-bottom: 20px;position: relative;
+.title{font-size: 36px;color: #010000;text-transform: uppercase;text-align: center;padding-bottom: 20px;position: relative;
     span{display: inline-block;}
     &:after{content: '';display: block;position: absolute;bottom: 0;left: 50%;background-image: url(../images/titleimg.png);max-width: 306px;height: 14px;width: 100%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0);-ms-transform:translate3d(-50%,0,0);-moz-transform:translate3d(-50%,0,0);}
 }
 
+.map-img-bottom{text-align: center;}
+
 /* /basic styles */
 
 /* img map block */
+
+.map-img-inf{display: inline-block;width: 28%;margin-right: 4%;vertical-align: top;
+    &:last-child{margin-right: 0;}
+    .map-img-inf-top-descript{font-size: 32px;color:#a98352;
+        &:first-child{height: 45px;}
+    }
+    .map-img-value{font-weight: 700;font-size: 60px;color:#a98352;line-height: 35px;}
+}
 
 
 
