@@ -1,6 +1,5 @@
 /* basic styles */
 .title {
-  font-family: 'Calibri', sans-serif;
   font-size: 36px;
   color: #010000;
   text-transform: uppercase;
@@ -29,6 +28,37 @@
   -moz-transform: translate3d(-50%, 0, 0);
 }
 
+.map-img-bottom {
+  text-align: center;
+}
+
 /* /basic styles */
 /* img map block */
+.map-img-inf {
+  display: inline-block;
+  width: 28%;
+  margin-right: 4%;
+  vertical-align: top;
+}
+
+.map-img-inf:last-child {
+  margin-right: 0;
+}
+
+.map-img-inf .map-img-inf-top-descript {
+  font-size: 32px;
+  color: #a98352;
+}
+
+.map-img-inf .map-img-inf-top-descript:first-child {
+  height: 45px;
+}
+
+.map-img-inf .map-img-value {
+  font-weight: 700;
+  font-size: 60px;
+  color: #a98352;
+  line-height: 35px;
+}
+
 /* img map block */
