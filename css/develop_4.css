@@ -1,26 +1,86 @@
 /*header*/
-header.autsor .header-wrap {
+header .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-autsor-bg.jpg") center center no-repeat;
+  min-height: 945px;
 }
 
-header.autsor .header-top .header-logo {
+header .header-top .header-logo {
   float: left;
+  padding-right: 75px;
 }
 
-header.autsor .header-top .header-nav {
+header .header-top .header-nav {
   float: left;
   width: 100%;
   max-width: 650px;
 }
 
-header.autsor .header-top .header-nav li {
+header .header-top .header-nav ul {
+  margin: 0;
+}
+
+header .header-top .header-nav li {
   float: left;
   width: 25%;
   text-align: center;
+  border-bottom: 1px solid transparent;
+  transition: all ease 0.2s;
 }
 
-header.autsor .header-top .header-nav a {
+header .header-top .header-nav li:hover {
+  border-bottom: 1px solid #a98352;
+}
+
+header .header-top .header-nav a {
   display: block;
-  padding: 10px 0px;
+  padding: 28px 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header .header-top .header-tel {
+  float: right;
+  padding-left: 24px;
+}
+
+header .header-top .header-tel a {
+  color: #fff;
+  font-size: 29px;
+  text-decoration: none;
+  padding-top: 20px;
+  display: block;
+}
+
+header .header-sub-top-zvonok {
+  float: right;
+  text-align: center;
+}
+
+header .header-sub-top-zvonok .icon-head-tel {
+  background: url("../images/icon-head-tel.png") center center no-repeat;
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+header .header-sub-top-zvonok span {
+  display: inline-block;
+  color: #fff;
+  font-size: 19px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+header .header-middle {
+  text-align: center;
+  color: #fff;
+}
+
+header .header-middle .header-tab-top-title {
+  font-size: 72px;
 }
