@@ -124,7 +124,7 @@
 				</div>
 				<div class="header-sub-top cfix-after">
 					<div class="header-sub-top-zvonok">
-						<a href="#">
+						<a href="#call-popup" class="fancybox_popup">
 							<span class="icon icon-head-tel"></span>
 							<span>заказать звонок</span>
 						</a>

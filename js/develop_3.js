@@ -72,8 +72,17 @@ function validate(form, options){
 }
 
 $(document).ready(function() {
-
 	validate('.form-top');
 	inputNumber($('.phone'));
 
+	$('.fancybox_popup').fancybox({
+	    padding:0,
+	    fitToView:false,
+	    autoSize:true,
+	    closeBtn:false
+	});
 });
+
+
+	
+
