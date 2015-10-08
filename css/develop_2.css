@@ -1,4 +1,7 @@
-.review-wrap .head-review {
-  font-family: 'Myriad Pro';
-  font-size: 36px;
+.review-wrap .review {
+  display: inline-block;
+}
+
+.review-wrap .review .human-face {
+  float: right;
 }

@@ -61,7 +61,7 @@
 		<section>
 			<div class="mbox">
 				<div class="title"><span>отзывы</span></div>
-				<!-- artem calls -->
+								<!-- artem calls -->
 			</div>
 		</section>
 
