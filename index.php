@@ -58,10 +58,11 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="review-wrap-all">
 			<div class="mbox">
 				<div class="title"><span>отзывы</span></div>
-								<!-- artem calls -->
+				<!-- artem calls -->
+				<? partial('artem') ?>
 			</div>
 		</section>
 
