@@ -4,6 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+
+	<meta id="viewport" name="viewport" content="width=1280, user-scalable=no">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
@@ -101,8 +103,84 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
-	<header class="header">
-		<div class="mbox">
+	<header class="header <?php  echo $act;?>">
+		<div class="header-wrap">
+			<div class="mbox">
+				<div class="header-top cfix">
+					<div class="header-logo">
+						<img src="images/logo.png" alt="">
+					</div>
+					<div class="header-nav">
+						<nav>
+							<ul class="cfix">
+								<li><a href="#"><span>О нас</span></a></li>
+								<li><a href="#"><span>Новости</span></a></li>
+								<li><a href="#"><span>Вакансии</span></a></li>
+								<li><a href="#"><span>Контакты</span></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header-tel">
+						<a href="tel:+74953696082"><span>+7&nbsp;(495)&nbsp;369&nbsp;60&nbsp;82</span></a>
+					</div>
+				</div>
+				<div class="header-sub-top">
+					<div class="header-sub-top-zvonok">
+						<a href="#">
+							<span class="icon icon-head-tel"></span>
+							<span>заказать звонок</span>
+						</a>
+					</div>
+				</div>
+				<?php if($act == "autsor"){?>
+					<div class="header-middle">
+						<div class="header-tab-top-title"><h3>Аутсорсинг</h3></div>
+						<div class="header-tab-wrap">
+							<div class="header-tab-top">
+								<div class="header-tab-top-item">
+									<div class="header-tab-top-desc">
+										<p>Аутсорсинг – это делегирование полномочий, форма организации труда, при которой непрофильные функции компании передаются сторонним исполнителям. Чаще всего это ведение кадровых и юридических вопросов, бухгалтерский учёт, реже – производство вторичной и вспомогательной продукции, продажа товаров.</p>
+									</div>
+								</div>
+								<div class="header-tab-top-item">
+									<div class="header-tab-top-desc">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa facere possimus, inventore ipsam at autem! Necessitatibus aliquam qui itaque quasi, laborum fugit? Eos minima quasi, aperiam incidunt dolores aliquid nihil maiores autem vitae ab facere obcaecati. Culpa porro in minima praesentium accusamus eligendi nisi incidunt dolore libero, beatae aliquam odio.</p>
+									</div>
+								</div>
+								<div class="header-tab-top-item">
+									<div class="header-tab-top-desc">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nisi quo est minus veritatis expedita delectus, commodi sequi ratione corporis porro nostrum corrupti at sit voluptatibus quidem libero? Molestiae commodi est, nostrum dolorum rerum inventore quidem. Officiis, enim molestiae facilis.</p>
+									</div>
+								</div>
+							</div>
+							<div class="header-tab-bottom">
+								<div class="header-tab-bottom-item" data-utab="0">
+									<span>  Аутсорсинг в ритейле</span>
+								</div>
+								<div class="header-tab-bottom-item" data-utab="1" >
+									<span>Аутсорсинг в производстве</span>
+								</div>
+								<div class="header-tab-bottom-item" data-utab="2" >
+									<span>Аутсорсинг в логистике</span>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<div class="header-pagination">
+						<div class="header-pagination-wrap cfix">
+							<div class="header-pagination-left">
+								<span class="icon icon-pagination-left"></span>
+								<span>МЕРЧЕНДАЙЗИНГ</span>
+							</div>
+							<div class="header-pagination-right">
+								<span>Аутстаффинг</span>
+								<span class="icon icon-pagination-right"></span>
+							</div>
+						</div>
+					</div>
+				<?php } ?>
+			</div>
 		</div>
+
 	</header>
