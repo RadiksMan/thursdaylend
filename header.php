@@ -151,9 +151,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="header-tab-bottom">
+							<div class="header-tab-bottom cfix-after">
 								<div class="header-tab-bottom-item" data-utab="0">
-									<span>  Аутсорсинг в ритейле</span>
+									<span>  Аутсорсинг <br>в ритейле</span>
 								</div>
 								<div class="header-tab-bottom-item" data-utab="1" >
 									<span>Аутсорсинг в производстве</span>
@@ -165,14 +165,18 @@
 						</div>
 					</div>
 					<div class="header-pagination">
-						<div class="header-pagination-wrap cfix">
+						<div class="header-pagination-wrap cfix-after">
 							<div class="header-pagination-left">
-								<span class="icon icon-pagination-left"></span>
-								<span>МЕРЧЕНДАЙЗИНГ</span>
+								<a href="#">
+									<span class="icon icon-pagination-left"></span>
+									<span>МЕРЧЕНДАЙЗИНГ</span>
+								</a>
 							</div>
 							<div class="header-pagination-right">
-								<span>Аутстаффинг</span>
-								<span class="icon icon-pagination-right"></span>
+								<a href="#">
+									<span>Аутстаффинг</span>
+									<span class="icon icon-pagination-right"></span>
+								</a>
 							</div>
 						</div>
 					</div>
