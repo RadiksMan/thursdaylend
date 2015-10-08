@@ -1,0 +1,22 @@
+.top-form-wrap{background-image: url(../images/form_bg.jpg);background-repeat: no-repeat;background-position: center;position: relative;
+	.mbox{
+		.top-form{
+			.content-top-form{text-align: center;padding: 55px 40px 78px 40px;
+				h2{margin: 0;font-family: calibri;font-size: 45px;color: #fff;text-transform: uppercase;margin-bottom: 30px;}
+				.top-form-text{font-size: 22px;font-family: calibri;color: #fff;padding: 0px 135px;margin-bottom: 30px;}
+				.form-top-wrap{
+					.form-top{
+						.input-wrap{background-color: #E8E8E8;border-radius: 3px;float: left;background-position: 6% 50%; margin-right: 100px;
+							input{background: 0;border:0;font-size: 20px;font-family: calibri;font-weight: 300;padding: 17px 10px 17px 50px;}
+						}
+						.name{background-image: url(../images/name_form.png);background-repeat: no-repeat;}
+						.phone{background-image: url(../images/phone_form.png);background-repeat: no-repeat;}
+						.input-wrap-submit{background-color: #0B2839;border-radius: 3px;float: left;
+							input{background: 0;border:0;font-size: 18px;font-weight: 700;font-family: calibri;color: #fff;text-transform: uppercase;padding:10px;padding: 18px 80px;}
+						}
+					}
+				}
+			}
+		}
+	}
+}
