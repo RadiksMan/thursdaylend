@@ -1,3 +1,4 @@
+/* top bottom form */
 .top-form-wrap {
   background-image: url(../images/form_bg.jpg);
   background-repeat: no-repeat;
@@ -35,7 +36,9 @@
   margin: 0 auto;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .input-wrap {
+/* /top bottom form */
+/* form */
+form .input-wrap {
   background-color: #E8E8E8;
   border-radius: 3px;
   float: left;
@@ -43,7 +46,7 @@
   width: 31%;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .input-wrap input {
+form .input-wrap input {
   background: 0;
   border: 0;
   font-size: 20px;
@@ -54,23 +57,23 @@
   outline: none;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .name {
+form .name {
   background-image: url(../images/name_form.png);
   background-repeat: no-repeat;
   background-position: 6% 50%;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .phone {
+form .phone {
   background-image: url(../images/phone_form.png);
   background-repeat: no-repeat;
   background-position: 8% 50%;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .phone input {
+form .phone input {
   padding: 18px 15px 20px 60px;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .input-wrap-submit {
+form .input-wrap-submit {
   background-color: transparent;
   border-radius: 3px;
   float: left;
@@ -78,7 +81,7 @@
   box-sizing: border-box;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .input-wrap-submit button {
+form .input-wrap-submit button {
   background: 0;
   border: 0;
   font-size: 18px;
@@ -91,7 +94,50 @@
   outline: none;
 }
 
-.top-form-wrap .mbox .top-form .content-top-form .form-top-wrap .form-top .input-wrap-submit:hover {
+form .input-wrap-submit:hover {
   background-color: #0B2839;
   border: 1px solid #0B2839;
 }
+
+/* /form */
+/* popup */
+#call-popup {
+  padding: 40px;
+  min-width: 430px;
+}
+
+#call-popup .call-popup h2 {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  font-family: calibri;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -0.5px;
+  margin-bottom: 44px;
+}
+
+#call-popup .call-popup form .input-wrap {
+  float: none;
+  width: 89%;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+
+#call-popup .call-popup form .input-wrap-submit {
+  float: none;
+  border: 1px solid #000;
+  width: 89%;
+  margin: 0 auto;
+}
+
+#call-popup .call-popup form .input-wrap-submit button {
+  color: #000;
+  padding: 20px 113px 17px 110px;
+}
+
+#call-popup .call-popup form .input-wrap-submit button:hover {
+  color: #fff !important;
+}
+
+/* /popup */
