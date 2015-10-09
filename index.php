@@ -122,12 +122,25 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="resurses">
 			<div class="mbox animate-section">
 				<div class="title animate-it"><span>ресурсы</span></div>
 			</div>
-			<div class="mbox">
-
+			<div class="mbox animate-section">
+				<div class="resurses-wrap animate-it">
+					<ul class="left-list">
+						<li class="animate-delay"><span>Кассиры</span></li>
+						<li class="animate-delay"><span>Комплектовщики</span></li>
+						<li class="animate-delay"><span>Работники торгового зала - мерчендайзеры</span></li>
+						<li class="animate-delay"><span>Грузчики</span></li>
+					</ul>
+					<ul class="right-list">
+						<li class="animate-delay"><span>Фасовщики</span></li>
+						<li class="animate-delay"><span>Стикеровщики</span></li>
+						<li class="animate-delay"><span>Инвентаризация и учет</span></li>
+						<li class="animate-delay"><span>Прочие специальности</span></li>
+					</ul>
+				</div>
 			</div>
 		</section>
 
