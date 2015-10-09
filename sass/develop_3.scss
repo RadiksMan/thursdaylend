@@ -25,7 +25,7 @@ form{
 	.phone{background-image: url(../images/phone_form.png);background-repeat: no-repeat;background-position: 8% 50%;
 		input{padding: 18px 15px 20px 60px;}
 	}
-	.input-wrap-submit{background-color:transparent; border-radius: 3px;float: left; border: 1px solid #fff;box-sizing: border-box;width: 31%;
+	.input-wrap-submit{background-color:transparent; border-radius: 3px;float: left; border: 1px solid #fff;box-sizing: border-box;width: 31%;-moz-transition: border-color 1s ease-out; -webkit-transition: border-color 1s ease-out; -o-transition: border-color 1ms ease-out; transition: border-color 1ms ease-out;
 		button{background: 0;border:0;font-size: 18px;font-weight: 700;font-family: calibri;color: #fff;text-transform: uppercase;padding: 20px 0px;letter-spacing: 0.5px;outline: none;min-width: 100%;width: 100%;}
 		&:hover{background-color: #0B2839;border: 1px solid #0B2839;}
 	}
