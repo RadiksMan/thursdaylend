@@ -2,19 +2,19 @@
 header.index .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-autsor-bg.jpg") center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 header.autstaf .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-autstaf-bg.jpg") center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 header.merchen .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-merchen-bg.jpg") center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 header.merchen .header-tab-top-subdesc {
