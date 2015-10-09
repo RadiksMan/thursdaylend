@@ -5,7 +5,7 @@
 				<h2>заказать звонок</h2>
 				<p class="top-form-text">Быстро развивающаяся компания, работающая в таких направлениях, как Мерчендайзинг, Стаффинг и Аутстаффинг персонала</p>
 				<div class="form-top-wrap cfix-after">
-					<form action="" method="POST" class="form-top">
+					<form action="" method="POST" class="form-bottom">
 						<div class="input-wrap name">
 							<input type="text" name="name" placeholder="Ваше имя"/>
 						</div>

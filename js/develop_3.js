@@ -93,30 +93,35 @@ function validationCall(){
 
         }
     });
+}
 
+function popNext(){
+    var form1 = $('.form-top');
+    var form2 = $('.form-bottom');
+    $.fancybox.open("#call_success",{
+        padding:0,
+        fitToView:false,
+        wrapCSS:"call-popup",
+        autoSize:true,
+        afterClose: function(){
+            clearTimeout(timer);
+        }
+    });
+    var timer = null;
 
-    function popNext(){
-        $.fancybox.open("#call_success",{
-            padding:0,
-            fitToView:false,
-            wrapCSS:"call-popup",
-            autoSize:true,
-            afterClose: function(){
-                clearTimeout(timer);
-            }
-        });
-        var timer = null;
-
-        timer = setTimeout(function(){
-            $.fancybox.close("#call_success");
-        },2000)
-    }
-
+    timer = setTimeout(function(){
+        $.fancybox.close("#call_success");
+    },2000);
+    form1.trigger("reset");
+    form2.trigger("reset");
 }
 
 
 $(document).ready(function() {
-	validate('.form-top');
+    validate('.form-top', {submitFunction:popNext});
+	validate('.form-bottom', {submitFunction:popNext});
+    validate('.call-form', {submitFunction:validationCall});
+
 	inputNumber($('.phone'));
 
 	$('.fancybox_popup').fancybox({
@@ -126,10 +131,9 @@ $(document).ready(function() {
         wrapCSS:"call-popup",
 	    closeBtn:false
 	});
-    validate('.call-form',{submitFunction:validationCall});
+   
 
-
-    $('.center').slick({
+    $('.results').slick({
       centerMode: true,
       centerPadding: '60px',
       slidesToShow: 3,

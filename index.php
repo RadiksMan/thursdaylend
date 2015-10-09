@@ -144,9 +144,7 @@
 			<div class="mbox animate-section">
 				<div class="title animate-it"><span>результаты</span></div>
 			</div>
-			<div class="mbox">
-
-			</div>
+			<?partial('results')?>
 		</section>
 
 		<section>
