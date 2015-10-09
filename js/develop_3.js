@@ -140,6 +140,7 @@ $(document).ready(function() {
       infinite: true,
       draggable:false,
       focusOnSelect:true
+<<<<<<< HEAD
     });
 
     $('.recmails').slick({
@@ -147,6 +148,8 @@ $(document).ready(function() {
       centerPadding: '60px',
       slidesToShow: 3,
       infinite: true
+=======
+>>>>>>> c2c115606ad41c96d93baffacbaa94a875f32cac
     });
     
 });

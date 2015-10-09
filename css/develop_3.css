@@ -494,6 +494,7 @@ form .input-wrap-submit:hover {
 /* slick */
 .result-slider {
   overflow: hidden;
+<<<<<<< HEAD
 }
 
 .result-slider .results-wrap {
@@ -533,6 +534,42 @@ form .input-wrap-submit:hover {
 .recmail.slick-slide.slick-current.slick-active.slick-center {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+=======
+}
+
+.result-slider .results-wrap {
+  margin-left: -250px;
+  margin-right: -250px;
+}
+
+.result-slider .slick-track {
+  padding: 63px 0px;
+}
+
+.result-slider .results .result {
+  margin: 0 60px;
+}
+
+.result-slider .results .slick-slide {
+  transition: -webkit-transform ease-out 0.3s;
+  transition: transform ease-out 0.3s;
+  outline: none;
+}
+
+.result-slider .results .slick-center {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: 1;
+  position: relative;
+}
+
+.result-slider .results .slick-center .result-title-wrap .result-title {
+  opacity: 1 !important;
+}
+
+.result-slider .results .slick-center .result-description-wrap .result-description {
+  opacity: 1 !important;
+>>>>>>> c2c115606ad41c96d93baffacbaa94a875f32cac
 }
 
 /* /slick */
