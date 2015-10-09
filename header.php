@@ -232,7 +232,18 @@
 							</div>
 						</div>
 					<?php } ?>
+					<?php if($act == "main"){?>
+						<div class="header-middle">
+							<div class="header-tab-top-title"><h3>МЕрчендайзинг</h3></div>
+							<div class="header-tab-wrap">
+								<div class="header-tab-top">
+									<div class="header-tab-top-item">
 
+									</div>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
 				</div>
 			</div>
 		</div>

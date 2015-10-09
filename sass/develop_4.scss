@@ -12,6 +12,10 @@ header{
 
         }
     }
+    &.main{
+        .header-wrap{background-color: #0b2839;background: url('../images/header-main-bg.jpg') center center no-repeat;background-size: 100% 100%;}
+        .header-inside{min-height: 941px;}
+    }
 
     .header-inside{min-height: 945px;position: relative;}
     .header-top{padding-top: 9px;
