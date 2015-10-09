@@ -100,23 +100,27 @@ form{
 
 .newses-wrap{
 	.mbox{
-		.newses{
-			.news-wrap{float: left;width: 33.33%;
-				.news{width: 98%; margin: 0 auto;
-					.news-img{
-						img{}
-					}
-					.news-date-title{
-						p{
-							span{}
+		.newses{padding: 68px 55px;
+			h2{font-size: 45px; text-transform: uppercase;color: #000; font-family: calibri;text-align: center;margin: 0; margin-bottom: 85px;}
+			.news-list{
+				.news-wrap{float: left;width: 31.9%;margin-right: 25px;
+					.news{
+						.news-img{
+							img{max-width: 100%;}
+						}
+						.news-date-title{padding: 10px 0px 12px 0px;
+							p{font-size: 30px; font-family: calibri; font-weight: 700; color: #000; 
+								span{font-weight: 300; color:#c5ac8d;margin-right: 10px;}
+							}
+						}
+						.news-description{padding-bottom: 22px;
+							p{font-family: calibri; font-weight: 300; color: #afacac; font-size: 18px;line-height: 1.25;}
+						}
+						a.news-readmore{font-family: calibri; font-weight: 300; color: #a98352; font-size: 18px;
+							span{font-size: 15px;margin-left: 5px;}
 						}
 					}
-					.news-description{
-						p{}
-					}
-					a.news-readmore{
-						span{}
-					}
+					&:nth-child(3n+3){margin-right: 0;}
 				}
 			}
 		}
