@@ -109,3 +109,13 @@ header{
     50% { transform:translateX(-4px);  }
     100% { transform:translateX(0px);  }
 }
+/*/header*/
+
+/*main-footer*/
+.footer-contact{
+    .footer-contact-wrap{height: 760px;overflow: hidden;position: relative;}
+    .footer-contact-top{height: 395px;position: absolute;width: 100%;z-index: 5;background: url('../images/footer-contact-top-bg.png') center center no-repeat;background-size: 100% 100%;}
+    #footer-contact-map-wrap{height: 1200px}
+    .gmnoprint{display: none;}
+}
+
