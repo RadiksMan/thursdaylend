@@ -72,19 +72,18 @@ function validate(form, options){
 }
 
 
-function validationCall(){
+function validationCall(form){
 
-
+  var thisForm = $(form);
   var formSur = $('.call-form').serialize();
-  var form = $('.call-form');
 
     $.ajax({
-        url : form.attr('action'),
+        url : thisForm.attr('action'),
         data: formSur,
         method:'POST',
         success : function(data){
             if ( data.trim()!='true') {
-                form.trigger("reset");
+                thisForm.trigger("reset");
                 popNext();
             }
             else {
@@ -150,7 +149,7 @@ $(document).ready(function() {
       draggable:false,
       focusOnSelect:true
     });
-    
+
 });
 
 
