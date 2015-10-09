@@ -155,7 +155,10 @@ $(document).ready(function() {
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
 	oneHeightItems();
+
 });
+
+
 
 $(window).load(function(){
 
