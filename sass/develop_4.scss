@@ -1,7 +1,7 @@
 /*header*/
 header{
     &.index{
-        .header-wrap{background-color: #0b2839;background: url('../images/header-autsor-bg.jpg') center center no-repeat;}
+        .header-wrap{background-color: #0b2839;background: url('../images/header-autsor-bg.jpg') center center no-repeat;background-size: 100% 100%;}
     }
     &.autstaf{
         .header-wrap{background-color: #0b2839;background: url('../images/header-autstaf-bg.jpg') center center no-repeat;background-size: 100% 100%;}
@@ -114,7 +114,10 @@ header{
 /*main-footer*/
 .footer-contact{
     .footer-contact-wrap{height: 760px;overflow: hidden;position: relative;}
-    .footer-contact-top{height: 395px;position: absolute;width: 100%;z-index: 5;background: url('../images/footer-contact-top-bg.png') center center no-repeat;background-size: 100% 100%;}
+    .footer-contact-top{height: 395px;position: absolute;width: 100%;z-index: 5;background-image: url(../images/footer-bg.png);    background-color: rgba(11, 40, 57, 0.86);
+        &:after{content: '';display: block;position: absolute;left: calc(50% - 640px);width: 49px;top: 0;bottom: 0;background-image: url(../images/footer-line.png);}
+    }
+    .footer-contact-top-wrap{}
     #footer-contact-map-wrap{height: 1200px}
     .gmnoprint{display: none;}
 }

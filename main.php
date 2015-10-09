@@ -12,7 +12,11 @@
     <section>
         <div class="footer-contact">
             <div class="footer-contact-wrap">
-                <div class="footer-contact-top"></div>
+                <div class="footer-contact-top">
+                    <div class="footer-contact-top-wrap">
+
+                    </div>
+                </div>
                 <div class="footer-contact-map">
                     <div id="footer-contact-map-wrap">
 
