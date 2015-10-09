@@ -169,7 +169,7 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="top-form-section">
 			<? partial('bottomform'); ?>
 		</section>
 

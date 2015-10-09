@@ -1,5 +1,5 @@
 <div class="main-wrap">
-	<section class="top-form-section">
+	<section class="animate-section top-form-section">
 		<?partial('topform')?>
 	</section>
 	<section class="about-section">
@@ -8,6 +8,8 @@
 	<section class="news-section">
 		<?partial('news')?>
 	</section>
+
+    <? partial('vacancy'); ?>
 
     <section>
         <div class="footer-contact animate-section">
