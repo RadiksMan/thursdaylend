@@ -164,9 +164,7 @@
 			<div class="mbox animate-section">
 				<div class="title animate-it"><span>Рекомендационные письма</span></div>
 			</div>
-			<div class="mbox">
-
-			</div>
+			<?partial('recmails')?>
 		</section>
 
 		<section class="top-form-section">

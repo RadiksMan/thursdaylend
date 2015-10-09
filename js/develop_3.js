@@ -138,6 +138,14 @@ $(document).ready(function() {
       centerPadding: '60px',
       slidesToShow: 3
     });
+
+    $('.recmails').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      infinite: true
+    });
+    
 });
 
 
