@@ -1,13 +1,13 @@
 /*header*/
 header{
     &.index{
-        .header-wrap{background-color: #0b2839;background: url('../images/header-autsor-bg.jpg') center center no-repeat;background-size: 100% 100%;}
+        .header-wrap{background-color: #0b2839;background: url('../images/header-autsor-bg.jpg') center center no-repeat;background-size: cover;}
     }
     &.autstaf{
-        .header-wrap{background-color: #0b2839;background: url('../images/header-autstaf-bg.jpg') center center no-repeat;background-size: 100% 100%;}
+        .header-wrap{background-color: #0b2839;background: url('../images/header-autstaf-bg.jpg') center center no-repeat;background-size: cover;}
     }
     &.merchen{
-        .header-wrap{background-color: #0b2839;background: url('../images/header-merchen-bg.jpg') center center no-repeat;background-size: 100% 100%;}
+        .header-wrap{background-color: #0b2839;background: url('../images/header-merchen-bg.jpg') center center no-repeat;background-size:cover;}
         .header-tab-top-subdesc{font-weight: 300;font-size: 20px;padding-top: 20px;line-height: 30px;
 
         }
