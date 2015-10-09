@@ -61,58 +61,63 @@
 			</div>
 			<div class="mbox">
 				<div class="hot-info-main">
-					<div class="hot-info-row cfix-after">
-						<div class="hot-info-block cfix-after">
-							<div class="hot-info-num">1</div>
-							<div class="hot-info-content">
-								<div class="hot-info-text-main">
-									<div class="hot-info-title">ПОДБОР ПЕРСОНАЛА ЛЮБОЙ КВАЛИФИКАЦИИ</div>
-									<div class="hot-info-text">Предоставление персонала как линейного (не требующего специ- альной подготовки) так и высшего ( с профессиональной подготов- кой).</div>
-								</div>
-								<div class="hot-info-img">
-									<img src="images/hot-info-img1.png" alt="" />
+					<div class="hot-info-line animate-section">
+						<div class="hot-info-line-main animate-it"></div>
+					</div>
+					<div class="hot-info-row-wrap">
+						<div class="hot-info-row cfix-after animate-section">
+							<div class="hot-info-block animate-it cfix-after">
+								<div class="hot-info-num">1</div>
+								<div class="hot-info-content">
+									<div class="hot-info-text-main">
+										<div class="hot-info-title">ПОДБОР ПЕРСОНАЛА ЛЮБОЙ КВАЛИФИКАЦИИ</div>
+										<div class="hot-info-text">Предоставление персонала как линейного (не требующего специ- альной подготовки) так и высшего ( с профессиональной подготовкой).</div>
+									</div>
+									<div class="hot-info-img">
+										<img src="images/hot-info-img1.png" alt="" />
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="hot-info-row cfix-after">
-						<div class="hot-info-block cfix-after">
-							<div class="hot-info-num">2</div>
-							<div class="hot-info-content">
-								<div class="hot-info-text-main">
-									<div class="hot-info-title">ЗАРАБОТНАЯ ПЛАТА И НАЛОГИ</div>
-									<div class="hot-info-text">Мы берем на себя уплату всех налоговых отчислений, а также расчет и уплату заработной платы сотрудникам.</div>
-								</div>
-								<div class="hot-info-img">
-									<img src="images/hot-info-img2.png" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hot-info-row cfix-after">
-						<div class="hot-info-block cfix-after">
-							<div class="hot-info-num">3</div>
-							<div class="hot-info-content">
-								<div class="hot-info-text-main">
-									<div class="hot-info-title">КАДРОВОЕ СОПРОВОЖДЕНИЕ</div>
-									<div class="hot-info-text">Вам не придется заниматься бухгалтерским и кадровым обеспечением. Мы возьмем это на себя.</div>
-								</div>
-								<div class="hot-info-img">
-									<img src="images/hot-info-img3.png" alt="" />
+						<div class="hot-info-row cfix-after animate-section">
+							<div class="hot-info-block animate-it cfix-after">
+								<div class="hot-info-num">2</div>
+								<div class="hot-info-content">
+									<div class="hot-info-text-main">
+										<div class="hot-info-title">ЗАРАБОТНАЯ ПЛАТА И НАЛОГИ</div>
+										<div class="hot-info-text">Мы берем на себя уплату всех налоговых отчислений, а также расчет и уплату заработной платы сотрудникам.</div>
+									</div>
+									<div class="hot-info-img">
+										<img src="images/hot-info-img2.png" alt="" />
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="hot-info-row cfix-after">
-						<div class="hot-info-block cfix-after">
-							<div class="hot-info-num">4</div>
-							<div class="hot-info-content">
-								<div class="hot-info-text-main">
-									<div class="hot-info-title">ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</div>
-									<div class="hot-info-text">Персональный менеджер контролирует все стадии выполнения задачи.</div>
+						<div class="hot-info-row cfix-after animate-section">
+							<div class="hot-info-block animate-it cfix-after">
+								<div class="hot-info-num">3</div>
+								<div class="hot-info-content">
+									<div class="hot-info-text-main">
+										<div class="hot-info-title">КАДРОВОЕ СОПРОВОЖДЕНИЕ</div>
+										<div class="hot-info-text">Вам не придется заниматься бухгалтерским и кадровым обеспечением. Мы возьмем это на себя.</div>
+									</div>
+									<div class="hot-info-img">
+										<img src="images/hot-info-img3.png" alt="" />
+									</div>
 								</div>
-								<div class="hot-info-img">
-									<img src="images/hot-info-img4.png" alt="" />
+							</div>
+						</div>
+						<div class="hot-info-row cfix-after animate-section">
+							<div class="hot-info-block animate-it cfix-after">
+								<div class="hot-info-num">4</div>
+								<div class="hot-info-content">
+									<div class="hot-info-text-main">
+										<div class="hot-info-title">ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</div>
+										<div class="hot-info-text">Персональный менеджер контролирует все стадии выполнения задачи.</div>
+									</div>
+									<div class="hot-info-img">
+										<img src="images/hot-info-img4.png" alt="" />
+									</div>
 								</div>
 							</div>
 						</div>
