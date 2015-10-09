@@ -65,10 +65,10 @@
 			</div>
 		</section>
 
-		<section class="animate-section">
+		<section class="animate-section benefit-wrap-all">
 			<div class="mbox">
 				<div class="title"><span>преимущества</span></div>
-
+				<? partial('benefit'); ?>
 			</div>
 		</section>
 
@@ -100,7 +100,7 @@
 			<div class="mbox">
 				<div class="title"><span>отзывы</span></div>
 				<!-- artem calls -->
-				<? partial('artem'); ?>
+				<? partial('review'); ?>
 			</div>
 		</section>
 
