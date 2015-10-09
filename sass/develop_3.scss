@@ -163,7 +163,7 @@ form{
 .results-wrap{
 	.results{
 		.result-wrap{
-			.result{padding: 60px;    position: relative;
+			.result{position: relative;
 				.result-title-wrap{display: none;
 					.result-title{position: absolute;text-align: center;width: 100%; background-color: rgba(55,55,55,0.6);padding: 15px;font-family: calibri;text-transform: uppercase;font-size: 21px;font-weight: 700;
 						p{color: #fff;}
@@ -175,6 +175,7 @@ form{
 					}
 				}
 				&:hover .result-title, &:hover .result-description{display: block;}
+				img{max-width: 100%;}
 			}
 		}
 		.slick-prev.slick-arrow{background-image: url(../images/prev.png);background-repeat: no-repeat;background-color: transparent;border: 0;text-indent: -9999px;width: 45px;height: 45px;outline: none;position: absolute;top: 35%;left: 37%;z-index: 123;}
