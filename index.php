@@ -130,12 +130,12 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="benefit-wrap-all">
 			<div class="mbox animate-section">
 				<div class="title animate-it"><span>преимущества</span></div>
 			</div>
 			<div class="mbox">
-
+				<? partial('benefit'); ?>
 			</div>
 		</section>
 
@@ -173,7 +173,7 @@
 			</div>
 			<div class="mbox">
 				<!-- artem calls -->
-				<? partial('artem'); ?>
+				<? partial('review'); ?>
 			</div>
 		</section>
 
