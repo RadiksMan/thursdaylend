@@ -622,7 +622,7 @@ form .input-wrap-submit:hover {
 }
 
 .recmail-slider .recmails .recmail img {
-  max-width: 48%;
+  max-width: 61%;
   margin: 0 auto;
   border: 15px solid #E6E6E6;
   border-radius: 5px;
@@ -653,7 +653,7 @@ form .input-wrap-submit:hover {
   outline: none;
   position: absolute;
   top: 42%;
-  left: 38%;
+  left: 35%;
   z-index: 123;
   opacity: 0.8;
   transition: opacity 400ms ease;
@@ -668,7 +668,7 @@ form .input-wrap-submit:hover {
 
 .recmail-slider .recmails .slick-next {
   background-image: url(../images/next.png);
-  right: 38%;
+  right: 35%;
   left: inherit;
 }
 
