@@ -63,7 +63,7 @@
                                     </a>
                                 </div>
                                 <div class="footer-zayavka-row animate-delay">
-                                    <a href="#" class="">
+                                    <a href="#call-popup" class="fancybox_popup">
                                         Перезвоните мне
                                     </a>
                                 </div>
