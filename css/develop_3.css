@@ -94,7 +94,6 @@ form .input-wrap-submit {
   border: 1px solid #fff;
   box-sizing: border-box;
   width: 31%;
-  transition: border-color 1ms ease-out;
 }
 
 form .input-wrap-submit button {
@@ -176,10 +175,10 @@ form .input-wrap-submit:hover {
   -moz-transform: translate3d(0, 25%, 0);
   -ms-transform: translate3d(0, 25%, 0);
   opacity: 0;
-  transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease;
-  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease, background-color 1s ease;
-  -moz-transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease;
-  -ms-transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease;
+  transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;
 }
 
 .animate-section .input-wrap.animated, .animate-section .input-wrap-submit.animated {

@@ -25,7 +25,7 @@ form{
 	.phone{background-image: url(../images/phone_form.png);background-repeat: no-repeat;background-position: 8% 50%;
 		input{padding: 18px 15px 20px 60px;}
 	}
-	.input-wrap-submit{background-color:transparent; border-radius: 3px;float: left; border: 1px solid #fff;box-sizing: border-box;width: 31%;-moz-transition: border-color 1s ease-out; -webkit-transition: border-color 1s ease-out; -o-transition: border-color 1ms ease-out; transition: border-color 1ms ease-out;
+	.input-wrap-submit{background-color:transparent; border-radius: 3px;float: left; border: 1px solid #fff;box-sizing: border-box;width: 31%;
 		button{background: 0;border:0;font-size: 18px;font-weight: 700;font-family: calibri;color: #fff;text-transform: uppercase;padding: 20px 0px;letter-spacing: 0.5px;outline: none;min-width: 100%;width: 100%;}
 		&:hover{background-color: #0B2839;border: 1px solid #0B2839;}
 	}
@@ -43,7 +43,7 @@ form{
 	 &.animated{transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);opacity: 1;}
 }
 .animate-section{
-	.input-wrap, .input-wrap-submit{transform:translate3d(0,25%,0);-webkit-transform:translate3d(0,25%,0);-moz-transform:translate3d(0,25%,0);-ms-transform:translate3d(0,25%,0);opacity: 0;transition:transform 300ms ease, opacity 400ms ease, background-color 1s ease;-webkit-transition:-webkit-transform 300ms ease, opacity 400ms ease, background-color 1s ease;-moz-transition:transform 300ms ease, opacity 400ms ease, background-color 1s ease;-ms-transition:transform 300ms ease, opacity 400ms ease, background-color 1s ease;
+	.input-wrap, .input-wrap-submit{transform:translate3d(0,25%,0);-webkit-transform:translate3d(0,25%,0);-moz-transform:translate3d(0,25%,0);-ms-transform:translate3d(0,25%,0);opacity: 0;transition:transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;-webkit-transition:-webkit-transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;-moz-transition:transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;-ms-transition:transform 300ms ease, opacity 400ms ease, background-color 1s ease, border-color 1s ease;
 		&.animated{transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);opacity: 1;}
 	}
 }
