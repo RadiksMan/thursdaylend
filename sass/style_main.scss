@@ -132,6 +132,7 @@
 
 /* resurses */
 
+.resurses{padding-bottom: 50px;border-bottom:1px solid #a98352;}
 .resurses .title{margin-bottom: 50px;padding-top: 50px;}
 .resurses-wrap{position: relative;min-height: 485px;
     &:after{content:'';display: block;position: absolute;left:calc(50% - 190px);top: calc(50% - 190px);width: 380px;height: 380px;background-image:url(../images/big-logo.png);background-repeat: no-repeat;transform:scale(0);-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);transition:transform 0ms ease 500ms;-webkit-transition:transform 0ms ease 500ms;-moz-transition:transform 0ms ease 500ms;-ms-transition:transform 0ms ease 500ms;}

@@ -543,6 +543,11 @@
 
 /* /footer */
 /* resurses */
+.resurses {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #a98352;
+}
+
 .resurses .title {
   margin-bottom: 50px;
   padding-top: 50px;
