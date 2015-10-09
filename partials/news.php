@@ -1,8 +1,8 @@
 <div class="newses-wrap">
 	<div class="mbox">
-		<div class="newses cfix-after">
-			<div class="h2-wrap animate-section">
-				<div class="h2 animate-it">
+		<div class="newses cfix-after animate-section">
+			<div class="h2-wrap animate-it">
+				<div class="h2">
 					<h2><span>Новости</span></h2>
 				</div>
 			</div>

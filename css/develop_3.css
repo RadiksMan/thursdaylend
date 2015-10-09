@@ -91,6 +91,7 @@ form .input-wrap-submit {
   border: 1px solid #fff;
   box-sizing: border-box;
   width: 31%;
+  transition: border-color 1ms ease-out;
 }
 
 form .input-wrap-submit button {

@@ -1,8 +1,8 @@
 <div class="about-wrap">
 	<div class="mbox">
-		<div class="about">
-			<div class="h2-wrap animate-section">
-				<div class="h2 animate-it">
+		<div class="about animate-section">
+			<div class="h2-wrap animate-it">
+				<div class="h2">
 					<h2><span>О Нас</span></h2>
 				</div>
 			</div>
