@@ -21,7 +21,7 @@
     }
 }
 .benefit-first{ .row .benefit-item {width: 28%;}}
-.benefit-second{ .row .benefit-item {width: 20%;}}
+.benefit-second{ .row .benefit-item {width: 28%;}}
 .benefit-third{ .row .benefit-item {width: 20%;}}
 .benefit-wrap-all{padding-top: 65px;   padding-bottom: 25px;
 
@@ -57,9 +57,8 @@
                 .content{display: inline-block; font-family: 'calibri'; font-size: 18px; margin-left: 45px;letter-spacing: 0.8px;    padding-top: 17px;}
                 .vacancy{ text-decoration: none; text-align: center;
                     .button-vacancy{ margin-left: 30px; width: 85%; font-family: 'calibri'; font-weight: 700; font-size: 17px; border-radius: 3px; background-color:#a98352; color:#ffffff; padding-top: 17px; padding-bottom: 17px; -moz-transition: all 0.5s ease-in;-webkit-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;    transition: all 0.5s ease-in;
-                        &:hover{color:#ccc; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+                        &:hover{background-color:#6E4715; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
                     }
-
                 }
             }
         }
