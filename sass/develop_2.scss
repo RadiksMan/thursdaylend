@@ -46,13 +46,17 @@
 
             .conteiner-vacancy{display: inline-block; width: 28%; margin-left: 60px;text-align: left;
                 .work-image{ margin-bottom: -80px; }
+                .content{padding-bottom: 17px;}
                 .name-vacancy{vertical-align: top; margin-left: 30px;
                     p{ display: inline-block;  font-family: 'calibri'; font-size: 31px;}
                 }
                 .line{width: 40px;height: 3px; background-color:#071923;margin-left: 30px; }
                 .content{display: inline-block; font-family: 'calibri'; font-size: 18px; margin-left: 45px;letter-spacing: 0.8px;    padding-top: 17px;}
                 .vacancy{ text-decoration: none; text-align: center;
-                    .button-vacancy{ margin-left: 30px; width: 85%; font-family: 'calibri'; font-weight: 700; font-size: 17px; border-radius: 3px; background-color:#a98352; color:#ffffff; padding-top: 17px; padding-bottom: 17px; }
+                    .button-vacancy{ margin-left: 30px; width: 85%; font-family: 'calibri'; font-weight: 700; font-size: 17px; border-radius: 3px; background-color:#a98352; color:#ffffff; padding-top: 17px; padding-bottom: 17px; -moz-transition: all 0.5s ease-in;-webkit-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;    transition: all 0.5s ease-in;
+                        &:hover{color:#e8e8e8; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+                    }
+
                 }
             }
         }

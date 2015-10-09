@@ -117,13 +117,31 @@ function valueShow(){
 
 			var timer = $(this).find('.timer');
 			var timerValue = timer.data('value');
+            var pointValue = 1;
+            if(timerValue>=100 && timerValue<250){
+                pointValue = 2;
+            }
+            else if(timerValue>=250 && timerValue<1000){
+                pointValue = 3;
+            }
+            else if(timerValue>=1000 && timerValue<2000){
+                pointValue = 4;
+            }
+            else if(timerValue>=2000 && timerValue<3000){
+                pointValue = 5;
+            }
+            else if(timerValue>=3000){
+                pointValue = 9;
+            }
 			var dataIntervalTime = 2000/timerValue;
 			var point = 0;
-
 			var timerId = setInterval(function(){
-				timer.text(point);
-				point++;
-				if(point>timerValue){
+                point += pointValue;
+                if(point>=timerValue){
+                    point = timerValue;
+                }
+                timer.text(point);
+				if(point==timerValue){
 					clearInterval(timerId);
 				}
 			}, dataIntervalTime);
