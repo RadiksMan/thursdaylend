@@ -115,7 +115,7 @@ form .input-wrap-submit:hover {
 
 /* /form */
 /* animation */
-.h2 {
+.h2-wrap {
   font-size: 36px;
   color: #010000;
   text-transform: uppercase;
@@ -134,7 +134,7 @@ form .input-wrap-submit:hover {
   -ms-transition: transform 300ms ease, opacity 400ms ease;
 }
 
-.h2.animated {
+.h2-wrap.animated {
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -142,11 +142,11 @@ form .input-wrap-submit:hover {
   opacity: 1;
 }
 
-.h2 span {
+.h2-wrap span {
   display: inline-block;
 }
 
-.animate-section .input-wrap, .animate-section .input-wrap-submit {
+.top-form-text {
   transform: translate3d(0, 25%, 0);
   -webkit-transform: translate3d(0, 25%, 0);
   -moz-transform: translate3d(0, 25%, 0);
@@ -156,6 +156,26 @@ form .input-wrap-submit:hover {
   -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
   -moz-transition: transform 300ms ease, opacity 400ms ease;
   -ms-transition: transform 300ms ease, opacity 400ms ease;
+}
+
+.top-form-text.animated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.animate-section .input-wrap, .animate-section .input-wrap-submit {
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease, background-color 1s ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease, background-color 1s ease;
 }
 
 .animate-section .input-wrap.animated, .animate-section .input-wrap-submit.animated {
@@ -209,6 +229,46 @@ form .input-wrap-submit:hover {
 .news-readmore:hover span {
   animation-play-state: running;
   -webkit-animation-play-state: running;
+}
+
+.results {
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 400ms ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease;
+}
+
+.results.animated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.recmails {
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 400ms ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease;
+}
+
+.recmails.animated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  opacity: 1;
 }
 
 @-webkit-keyframes thumb {
@@ -460,7 +520,7 @@ form .input-wrap-submit:hover {
   color: #fff;
 }
 
-.results-wrap .results .slick-prev.slick-arrow {
+.results-wrap .results .slick-arrow {
   background-image: url(../images/prev.png);
   background-repeat: no-repeat;
   background-color: transparent;
@@ -471,23 +531,23 @@ form .input-wrap-submit:hover {
   outline: none;
   position: absolute;
   top: 42%;
-  left: 32%;
+  left: 33%;
   z-index: 123;
+  opacity: 0.8;
+  transition: opacity 400ms ease;
+  -webkit-transition: opacity 400ms ease;
+  -moz-transition: opacity 400ms ease;
+  -ms-transition: opacity 400ms ease;
 }
 
-.results-wrap .results .slick-next.slick-arrow {
+.results-wrap .results .slick-arrow:hover {
+  opacity: 1;
+}
+
+.results-wrap .results .slick-next {
   background-image: url(../images/next.png);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: 0;
-  text-indent: -9999px;
-  width: 45px;
-  height: 45px;
-  outline: none;
-  position: absolute;
-  top: 42%;
-  right: 32%;
-  z-index: 123;
+  right: 33%;
+  left: inherit;
 }
 
 /* /slider */
@@ -496,9 +556,14 @@ form .input-wrap-submit:hover {
   overflow: hidden;
 }
 
+.result-slider .mbox {
+  padding-bottom: 45px;
+}
+
 .result-slider .results-wrap {
   margin-left: -250px;
   margin-right: -250px;
+  padding-bottom: 180px;
 }
 
 .result-slider .slick-track {
@@ -528,6 +593,78 @@ form .input-wrap-submit:hover {
 
 .result-slider .results .slick-center .result-description-wrap .result-description {
   opacity: 1 !important;
+}
+
+.recmail-slider {
+  overflow: hidden;
+}
+
+.recmail-slider .mbox {
+  padding-bottom: 50px;
+}
+
+.recmail-slider .recmails-wrap {
+  margin-left: -250px;
+  margin-right: -250px;
+}
+
+.recmail-slider .slick-track {
+  padding: 130px 0px;
+}
+
+.recmail-slider .recmails .recmail {
+  margin: 0 60px;
+}
+
+.recmail-slider .recmails .recmail img {
+  max-width: 48%;
+  margin: 0 auto;
+  border: 15px solid #E6E6E6;
+  border-radius: 5px;
+  box-shadow: 10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+.recmail-slider .recmails .slick-slide {
+  transition: -webkit-transform ease-out 0.3s;
+  transition: transform ease-out 0.3s;
+  outline: none;
+}
+
+.recmail-slider .recmails .slick-center {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: 1;
+  position: relative;
+}
+
+.recmail-slider .recmails .slick-arrow {
+  background-image: url(../images/prev.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  text-indent: -9999px;
+  width: 45px;
+  height: 45px;
+  outline: none;
+  position: absolute;
+  top: 42%;
+  left: 38%;
+  z-index: 123;
+  opacity: 0.8;
+  transition: opacity 400ms ease;
+  -webkit-transition: opacity 400ms ease;
+  -moz-transition: opacity 400ms ease;
+  -ms-transition: opacity 400ms ease;
+}
+
+.recmail-slider .recmails .slick-arrow:hover {
+  opacity: 1;
+}
+
+.recmail-slider .recmails .slick-next {
+  background-image: url(../images/next.png);
+  right: 38%;
+  left: inherit;
 }
 
 /* /slick */
