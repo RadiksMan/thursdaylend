@@ -1,19 +1,19 @@
-<div class="benefit-box">
+<div class="benefit-box ">
 
-    <div class="row">
-        <div class="benefit-item">
+    <div class="row  animate-section" >
+        <div class="benefit-item animate-it">
             <img src="images/benefit-img1.png " alt="">
             <div class="name"> Персонал </div>
             <div class="line"></div>
             <div class="content"> Мы гарантируем тщательный подбор персонала, обучение и подго- товку к успешной работе. Нашими сотрудниками являются только граждане РФ.  </div>
         </div>
-        <div class="benefit-item">
+        <div class="benefit-item animate-it">
             <img src="images/benefit-img2.png " alt="">
             <div class="name"> Географеия </div>
             <div class="line"></div>
             <div class="content">Покрытие по всей России более 35 городов.</div>
         </div>
-        <div class="benefit-item">
+        <div class="benefit-item animate-it">
             <img src="images/benefit-img3.png " alt="">
             <div class="name">Гражданство</div>
             <div class="line"></div>
@@ -21,14 +21,14 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="benefit-item">
+    <div class="row animate-section">
+        <div class="benefit-item animate-it">
             <img src="images/benefit-img4.png " alt="">
             <div class="name">Оперативность </div>
             <div class="line"></div>
             <div class="content">Мы гарантируем при невыходе нашего сотрудника на объект, замену в течение 3 часов.</div>
         </div>
-        <div class="benefit-item">
+        <div class="benefit-item animate-it">
             <img src="images/benefit-img5.png " alt="">
             <div class="name">Персональные навыки</div>
             <div class="line"></div>
