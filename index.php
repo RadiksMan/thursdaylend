@@ -8,11 +8,13 @@
 			</div>
 		</section>
 
-		<section class="map-points animate-section">
+		<section class="map-points">
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>География</span></div>
+			</div>
 			<div class="mbox">
-				<div class="title"><span>География</span></div>
 				<div class="map-img-wrap">
-					<div class="map-img-top">
+					<div class="map-img-top animate-section">
 						<div class="map-img-inf timer-wrap animate-it">
 							<div class="map-img-inf-top-main">
 								<div class="map-img-inf-top-descript"></div>
@@ -44,49 +46,118 @@
 							</div>
 						</div>
 					</div>
-					<div class="map-img-bottom animate-it">
-						<img src="images/map-img.png" alt="" />
+					<div class="mapimg-bottom-wrap animate-section">
+						<div class="map-img-bottom animate-it">
+							<img src="images/map-img.png" alt="" />
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="animate-section">
+		<section class="hot-info">
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>Что мы делаем</span></div>
+			</div>
 			<div class="mbox">
-				<div class="title"><span>Что мы делаем</span></div>
+				<div class="hot-info-main">
+					<div class="hot-info-row cfix-after">
+						<div class="hot-info-block cfix-after">
+							<div class="hot-info-num">1</div>
+							<div class="hot-info-content">
+								<div class="hot-info-text-main">
+									<div class="hot-info-title">ПОДБОР ПЕРСОНАЛА ЛЮБОЙ КВАЛИФИКАЦИИ</div>
+									<div class="hot-info-text">Предоставление персонала как линейного (не требующего специ- альной подготовки) так и высшего ( с профессиональной подготов- кой).</div>
+								</div>
+								<div class="hot-info-img">
+									<img src="images/hot-info-img1.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hot-info-row cfix-after">
+						<div class="hot-info-block cfix-after">
+							<div class="hot-info-num">2</div>
+							<div class="hot-info-content">
+								<div class="hot-info-text-main">
+									<div class="hot-info-title">ЗАРАБОТНАЯ ПЛАТА И НАЛОГИ</div>
+									<div class="hot-info-text">Мы берем на себя уплату всех налоговых отчислений, а также расчет и уплату заработной платы сотрудникам.</div>
+								</div>
+								<div class="hot-info-img">
+									<img src="images/hot-info-img2.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hot-info-row cfix-after">
+						<div class="hot-info-block cfix-after">
+							<div class="hot-info-num">3</div>
+							<div class="hot-info-content">
+								<div class="hot-info-text-main">
+									<div class="hot-info-title">КАДРОВОЕ СОПРОВОЖДЕНИЕ</div>
+									<div class="hot-info-text">Вам не придется заниматься бухгалтерским и кадровым обеспечением. Мы возьмем это на себя.</div>
+								</div>
+								<div class="hot-info-img">
+									<img src="images/hot-info-img3.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hot-info-row cfix-after">
+						<div class="hot-info-block cfix-after">
+							<div class="hot-info-num">4</div>
+							<div class="hot-info-content">
+								<div class="hot-info-text-main">
+									<div class="hot-info-title">ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР</div>
+									<div class="hot-info-text">Персональный менеджер контролирует все стадии выполнения задачи.</div>
+								</div>
+								<div class="hot-info-img">
+									<img src="images/hot-info-img4.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>ресурсы</span></div>
+			</div>
+			<div class="mbox">
 
 			</div>
 		</section>
 
-		<section class="animate-section">
+		<section>
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>преимущества</span></div>
+			</div>
 			<div class="mbox">
-				<div class="title"><span>ресурсы</span></div>
 
 			</div>
 		</section>
 
-		<section class="animate-section">
+		<section>
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>результаты</span></div>
+			</div>
 			<div class="mbox">
-				<div class="title"><span>преимущества</span></div>
 
 			</div>
 		</section>
 
-		<section class="animate-section">
+		<section>
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>Рекомендационные письма</span></div>
+			</div>
 			<div class="mbox">
-				<div class="title"><span>результаты</span></div>
 
 			</div>
 		</section>
 
-		<section class="animate-section">
-			<div class="mbox">
-				<div class="title"><span>Рекомендационные письма</span></div>
-
-			</div>
-		</section>
-
-		<section class="animate-section">
+		<section>
 			<div class="mbox">
 
 				<!-- roma form -->
@@ -95,10 +166,12 @@
 		</section>
 
 
-		<section class="review-wrap-all animate-section">
+		<section class="review-wrap-all">
 
+			<div class="mbox animate-section">
+				<div class="title animate-it"><span>отзывы</span></div>
+			</div>
 			<div class="mbox">
-				<div class="title"><span>отзывы</span></div>
 				<!-- artem calls -->
 				<? partial('artem'); ?>
 			</div>
