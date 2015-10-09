@@ -8,7 +8,7 @@
 
 .top-form-wrap .mbox .top-form .content-top-form {
   text-align: center;
-  padding: 55px 40px 64px 40px;
+  padding: 55px 40px 63px 40px;
 }
 
 .top-form-wrap .mbox .top-form .content-top-form h2 {
@@ -52,9 +52,15 @@ form .input-wrap input {
   font-size: 20px;
   font-family: calibri;
   font-weight: 300;
-  padding: 19px 15px 19px 53px;
+  padding: 18px 15px 18px 53px;
   width: 100%;
   outline: none;
+  border: 1px solid #E8E8E8;
+  border-radius: 3px;
+}
+
+form .input-wrap .error {
+  border: 1px solid #f00;
 }
 
 form .name {
