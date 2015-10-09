@@ -1,4 +1,4 @@
-        <div class="vacancy-row">
+        <div class="vacancy-row animate-it">
             <div class="conteiner-vacancy">
                 <img src="/images/work-kachok.png" class="work-image" alt="" />
                 <div class="name-vacancy">

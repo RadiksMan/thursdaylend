@@ -3,8 +3,8 @@
         <div class="title animate-it"><span>ВАКАНСИИ</span></div>
     </div>
     <div class="vacancy-wrap">
-        <div class="vacancy-box">
-            <div class="vacancy-row">
+        <div class="vacancy-box animate-section">
+            <div class="vacancy-row animate-it">
                 <div class="conteiner-vacancy">
                     <img src="/images/work-kachok.png" class="work-image" alt="" />
                     <div class="name-vacancy">
