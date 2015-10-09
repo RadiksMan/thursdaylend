@@ -54,7 +54,14 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <!-- jScrollPane -->
 
-
+<!-- Google map -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+	var cordX = 55.822389;
+	var cordY= 37.647088;
+	var googleText = "Москва, Проспект Мира д. 150";
+</script>
+<!-- /Google map -->
 <!-- remove Files -->
 	<!--<script src="js/myalert.js" type="text/javascript"></script>
 	<script src="develop/autocssrenew.js" type="text/javascript"></script>-->
