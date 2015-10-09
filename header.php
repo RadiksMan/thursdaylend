@@ -49,9 +49,9 @@
 <!-- sliders -->
 
 <!-- jScrollPane -->
-	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+	<!--<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>-->
 <!-- jScrollPane -->
 
 <!-- Google map -->
