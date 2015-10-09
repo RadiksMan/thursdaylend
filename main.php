@@ -9,6 +9,8 @@
 		<?partial('news')?>
 	</section>
 
+    <? partial('vacancy'); ?>
+
     <section>
         <div class="footer-contact animate-section">
             <div class="footer-contact-wrap">
