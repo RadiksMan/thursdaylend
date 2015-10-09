@@ -71,6 +71,50 @@ function validate(form, options){
     }
 }
 
+
+function validationCall(){
+
+
+  var formSur = $('.call-form').serialize();
+  var form = $('.call-form');
+
+    $.ajax({
+        url : form.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()!='true') {
+                form.trigger("reset");
+                popNext();
+            }
+            else {
+               $(this).trigger('reset');
+            }
+
+        }
+    });
+
+
+    function popNext(){
+        $.fancybox.open("#call_success",{
+            padding:0,
+            fitToView:false,
+            wrapCSS:"call-popup",
+            autoSize:true,
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $.fancybox.close("#call_success");
+        },2000)
+    }
+
+}
+
+
 $(document).ready(function() {
 	validate('.form-top');
 	inputNumber($('.phone'));
@@ -79,8 +123,10 @@ $(document).ready(function() {
 	    padding:0,
 	    fitToView:false,
 	    autoSize:true,
+        wrapCSS:"call-popup",
 	    closeBtn:false
 	});
+    validate('.call-form',{submitFunction:validationCall});
 });
 
 

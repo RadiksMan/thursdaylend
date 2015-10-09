@@ -100,6 +100,33 @@ form .input-wrap-submit:hover {
 }
 
 /* /form */
+/* form-call popup*/
+#call_success {
+  padding: 40px;
+  min-width: 430px;
+}
+
+#call_success .call-success .call_success .call-title {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  font-family: calibri;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+}
+
+#call_success .call-success .call_success .call-subtitle {
+  font-size: 24px;
+  font-family: calibri;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+}
+
+/* /form-call popup*/
 /* popup */
 #call-popup {
   padding: 40px;
