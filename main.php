@@ -1,5 +1,5 @@
 <div class="main-wrap">
-	<section class="top-form-section">
+	<section class="animate-section top-form-section">
 		<?partial('topform')?>
 	</section>
 	<section class="about-section">

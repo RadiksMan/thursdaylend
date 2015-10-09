@@ -252,7 +252,7 @@
 }
 
 .vacancy-wrap .vacancy-box .vacancy-row .conteiner-vacancy .vacancy .button-vacancy:hover {
-  color: #e8e8e8;
+  color: #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 

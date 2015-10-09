@@ -131,12 +131,15 @@ $(document).ready(function() {
         wrapCSS:"call-popup",
 	    closeBtn:false
 	});
-   
+
 
     $('.results').slick({
-      centerMode: true,
-      centerPadding: '60px',
-      slidesToShow: 3
+       centerMode: true,
+      centerPadding: '0px',
+      slidesToShow: 3,
+      infinite: true,
+      draggable:false,
+      focusOnSelect:true
     });
 
     $('.recmails').slick({
@@ -149,5 +152,5 @@ $(document).ready(function() {
 });
 
 
-	
+
 

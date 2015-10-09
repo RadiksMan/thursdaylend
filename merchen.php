@@ -1,6 +1,6 @@
 <div class="main">
 
-    <section class="animate-section">
+    <section class="animate-section top-form-section">
         <? partial('topform'); ?>
     </section>
 
@@ -214,7 +214,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="top-form-section animate-section">
         <? partial('bottomform'); ?>
     </section>
 
