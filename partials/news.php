@@ -1,7 +1,6 @@
 <div class="newses-wrap">
 	<div class="mbox">
 		<div class="newses cfix-after">
-			<h2>Новости</h2>
 			<div class="news-list">
 				<div class="news-wrap">
 					<div class="news">
