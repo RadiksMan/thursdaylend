@@ -1,11 +1,7 @@
 	<div class="main">
 
 		<section class="animate-section">
-			<div class="mbox">
-
-				<!-- roma form -->
-
-			</div>
+			<? partial('topform'); ?>
 		</section>
 
 		<section class="map-points">
@@ -163,11 +159,7 @@
 		</section>
 
 		<section>
-			<div class="mbox">
-
-				<!-- roma form -->
-
-			</div>
+			<? partial('bottomform'); ?>
 		</section>
 
 
