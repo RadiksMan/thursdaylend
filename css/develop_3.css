@@ -8,7 +8,7 @@
 
 .top-form-wrap .mbox .top-form .content-top-form {
   text-align: center;
-  padding: 55px 40px 64px 40px;
+  padding: 55px 40px 63px 40px;
 }
 
 .top-form-wrap .mbox .top-form .content-top-form h2 {
@@ -52,9 +52,15 @@ form .input-wrap input {
   font-size: 20px;
   font-family: calibri;
   font-weight: 300;
-  padding: 19px 15px 19px 53px;
+  padding: 18px 15px 18px 53px;
   width: 100%;
   outline: none;
+  border: 1px solid #E8E8E8;
+  border-radius: 3px;
+}
+
+form .input-wrap .error {
+  border: 1px solid #f00;
 }
 
 form .name {
@@ -168,3 +174,66 @@ form .input-wrap-submit:hover {
 }
 
 /* /popup */
+/* main */
+/* top-form-section */
+.main-wrap .top-form-section {
+  background-image: url(../images/section-top-form.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-wrap .top-form-section .top-form-wrap {
+  background-image: none;
+}
+
+/* /top-form-section */
+/* /main */
+/* about */
+.about-wrap {
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-wrap .about {
+  padding: 127px 208px 147px 208px;
+}
+
+.about-wrap .about h2 {
+  font-family: calibri;
+  font-size: 45px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 69px;
+}
+
+.about-wrap .about p {
+  font-size: 18px;
+  font-family: calibri;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-indent: 3px;
+}
+
+.about-wrap .about p span {
+  font-size: 24px;
+}
+
+/* /about */
+/* news */
+.newses-wrap .mbox .newses .news-wrap {
+  float: left;
+  width: 33.33%;
+}
+
+.newses-wrap .mbox .newses .news-wrap .news {
+  width: 98%;
+  margin: 0 auto;
+}
+
+/* /news */
