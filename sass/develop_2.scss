@@ -9,3 +9,18 @@
         }
     }
 }
+
+.benefit-wrap-all{padding-top: 65px;   padding-bottom: 25px;
+    .benefit-box{padding-top: 43px;width: 100%; padding-left: 60px;
+        .row{text-align: center; width: 100%; padding-bottom: 40px; margin-right: 0; margin-left: 0;
+            .benefit-item{ display: inline-block; width: 28%; text-align: left; vertical-align: top; margin-left: 80px;
+                img{padding-top: 20px; padding-bottom: 6px;}
+                .line{height: 3px; width: 45px; background-color: #a98352; }
+                .name{font-family: 'calibri'; font-size: 36px; padding-bottom: 12px; }
+                .content{ font-family: 'calibri'; font-size: 20px; font-weight: 300; padding-top: 14px;}
+
+            }
+            .benefit-item:first-child{margin-left: 0;}
+        }
+    }
+}
