@@ -20,16 +20,19 @@
         }
     }
 }
-
+.benefit-first{ .row .benefit-item {width: 28%;}}
+.benefit-second{ .row .benefit-item {width: 20%;}}
+.benefit-third{ .row .benefit-item {width: 20%;}}
 .benefit-wrap-all{padding-top: 65px;   padding-bottom: 25px;
+
     .benefit-box{padding-top: 43px;width: 100%; padding-left: 60px;
         .row{text-align: center; width: 100%; padding-bottom: 40px; margin-right: 0;
-            .benefit-item{ display: inline-block; width: 28%; text-align: left; vertical-align: top; margin-left: 60px;
+            .benefit-item{ display: inline-block; text-align: left; vertical-align: top; margin-left: 60px;
                 opacity: 0;transform:translate3d(0,-10%,0);-webkit-transform:translate3d(0,-10%,0);-moz-transform:translate3d(0,-10%,0);-ms-transform:translate3d(0,-10%,0);transition:transform 300ms ease, opacity 400ms ease;-webkit-transition:transform 300ms ease, opacity 400ms ease;-moz-transition:transform 300ms ease, opacity 400ms ease;-ms-transition:transform 300ms ease, opacity 400ms ease;
                 &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
-                img{padding-top: 20px; padding-bottom: 6px;}
+                img{padding-top: 20px; padding-bottom: 6px; height:100px; }
                 .line{height: 3px; width: 45px; background-color: #a98352; }
-                .name{font-family: 'calibri'; font-size: 36px; padding-bottom: 12px; }
+                .name{font-family: 'calibri'; font-size: 29px; padding-bottom: 12px; }
                 .content{ font-family: 'calibri'; font-size: 20px; font-weight: 300; padding-top: 14px;}
 
             }
