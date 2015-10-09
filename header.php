@@ -131,7 +131,7 @@
 							</a>
 						</div>
 					</div>
-					<?php if($act == "autsor"){?>
+					<?php if($act == "index"){?>
 						<div class="header-middle">
 							<div class="header-tab-top-title"><h3>Аутсорсинг</h3></div>
 							<div class="header-tab-wrap">
@@ -182,6 +182,71 @@
 							</div>
 						</div>
 					<?php } ?>
+					<?php if($act == "autstaf"){?>
+						<div class="header-middle">
+							<div class="header-tab-top-title"><h3>Aутстаффинг</h3></div>
+							<div class="header-tab-wrap">
+								<div class="header-tab-top">
+									<div class="header-tab-top-item">
+										<div class="header-tab-top-desc">
+											<p>Аутстаффинг — предоставления в распоряжение заказчика определенного количества работников, не вступающих с ним в какие-либо правовые отношения (гражданско-правовые, трудовые) напрямую,но оказывающих от имени исполнителя определенные услуги (работы) по месту нахождения заказчика.Его синонимами принято считать такие понятия, как аренда или лизинг персонала, заемный труд.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header-pagination">
+							<div class="header-pagination-wrap cfix-after">
+								<div class="header-pagination-left">
+									<a href="#">
+										<span class="icon icon-pagination-left"></span>
+										<span>Aутсорсинг</span>
+									</a>
+								</div>
+								<div class="header-pagination-right">
+									<a href="#">
+										<span>Mерчендайзинг</span>
+										<span class="icon icon-pagination-right"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
+					<?php if($act == "merchen"){?>
+						<div class="header-middle">
+							<div class="header-tab-top-title"><h3>МЕрчендайзинг</h3></div>
+							<div class="header-tab-wrap">
+								<div class="header-tab-top">
+									<div class="header-tab-top-item">
+										<div class="header-tab-top-desc">
+											<p>Компания MAINFORT работает во всех категориях мерчендайзинга:</p>
+										</div>
+										<div class="header-tab-top-subdesc">
+											<p>Стационарный: (эксклюзивный и совмещенный)</p>
+											<p>Маршрутный: (эксклюзивный и совмещенный)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header-pagination">
+							<div class="header-pagination-wrap cfix-after">
+								<div class="header-pagination-left">
+									<a href="#">
+										<span class="icon icon-pagination-left"></span>
+										<span>Aутсорсинг</span>
+									</a>
+								</div>
+								<div class="header-pagination-right">
+									<a href="#">
+										<span>Аутстаффинг</span>
+										<span class="icon icon-pagination-right"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
+
 				</div>
 			</div>
 		</div>
