@@ -234,11 +234,31 @@
 					<?php } ?>
 					<?php if($act == "main"){?>
 						<div class="header-middle">
-							<div class="header-tab-top-title"><h3>МЕрчендайзинг</h3></div>
-							<div class="header-tab-wrap">
-								<div class="header-tab-top">
-									<div class="header-tab-top-item">
-
+							<div class="main-logo">
+								<img src="images/main-logo.png" alt="" title="">
+							</div>
+							<div class="main-navigation">
+								<div class="main-navigation-wrap cfix-after">
+									<div class="main-navigation-item-wrap item-wrap-1">
+										<a href="#">
+											<div class="main-navigation-item">
+												<span>Мерчендайзинг</span>
+											</div>
+										</a>
+									</div>
+									<div class="main-navigation-item-wrap item-wrap-2">
+										<a href="#">
+											<div class="main-navigation-item">
+												<span>аутсорсинг</span>
+											</div>
+										</a>
+									</div>
+									<div class="main-navigation-item-wrap item-wrap-3">
+										<a href="#">
+											<div class="main-navigation-item">
+												<span>Аутстаффинг</span>
+											</div>
+										</a>
 									</div>
 								</div>
 							</div>
