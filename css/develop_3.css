@@ -421,7 +421,6 @@ form .input-wrap-submit:hover {
 /* /news */
 /* slider */
 .results-wrap .results .result-wrap .result {
-  padding: 60px;
   position: relative;
 }
 
@@ -467,6 +466,10 @@ form .input-wrap-submit:hover {
 
 .results-wrap .results .result-wrap .result:hover .result-title, .results-wrap .results .result-wrap .result:hover .result-description {
   display: block;
+}
+
+.results-wrap .results .result-wrap .result img {
+  max-width: 100%;
 }
 
 .results-wrap .results .slick-prev.slick-arrow {
