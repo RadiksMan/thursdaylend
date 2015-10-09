@@ -2,6 +2,7 @@
 header.index .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-autsor-bg.jpg") center center no-repeat;
+  background-size: 100% 100%;
 }
 
 header.autstaf .header-wrap {
@@ -426,8 +427,19 @@ header .header-pagination .icon-pagination-left, header .header-pagination .icon
   position: absolute;
   width: 100%;
   z-index: 5;
-  background: url("../images/footer-contact-top-bg.png") center center no-repeat;
-  background-size: 100% 100%;
+  background-image: url(../images/footer-bg.png);
+  background-color: rgba(11, 40, 57, 0.86);
+}
+
+.footer-contact .footer-contact-top:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: calc(50% - 640px);
+  width: 49px;
+  top: 0;
+  bottom: 0;
+  background-image: url(../images/footer-line.png);
 }
 
 .footer-contact #footer-contact-map-wrap {
