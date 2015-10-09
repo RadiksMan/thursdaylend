@@ -106,6 +106,119 @@ form .input-wrap-submit:hover {
 }
 
 /* /form */
+/* animation */
+.h2 {
+  font-size: 36px;
+  color: #010000;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  letter-spacing: .05em;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 400ms ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease;
+}
+
+.h2.animated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.h2 span {
+  display: inline-block;
+}
+
+.animate-section .input-wrap, .animate-section .input-wrap-submit {
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 400ms ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease;
+}
+
+.animate-section .input-wrap.animated, .animate-section .input-wrap-submit.animated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.news-wrap {
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 400ms ease;
+  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+  -moz-transition: transform 300ms ease, opacity 400ms ease;
+  -ms-transition: transform 300ms ease, opacity 400ms ease;
+}
+
+.news-wrap.animated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.news-readmore span {
+  display: inline-block;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: thumb;
+  animation-name: thumb;
+  -webkit-animation-duration: 750ms;
+  animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: thumb;
+  -webkit-animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.news-readmore:hover span {
+  animation-play-state: running;
+  -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes thumb {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+/* /animation */
 /* form-call popup*/
 #call_success {
   padding: 40px;
@@ -296,3 +409,5 @@ form .input-wrap-submit:hover {
 }
 
 /* /news */
+/* slider */
+/* /slider */

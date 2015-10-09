@@ -1,4 +1,4 @@
-	<div class="footer_placeholder"></div>
+	<div class="footer_placeholder <?php  echo $act;?>"></div>
 	<footer class="footer styled-footer animate-section <?php  echo $act;?>">
         <div class="footer-wrap">
     		<div class="mbox">

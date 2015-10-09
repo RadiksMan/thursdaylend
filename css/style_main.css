@@ -400,6 +400,10 @@
 
 /* /hot info */
 /* footer */
+.footer.main, .footer_placeholder.main {
+  display: none;
+}
+
 .footer .footer-wrap {
   padding: 70px 0 75px 0;
 }

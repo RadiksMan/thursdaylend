@@ -1,9 +1,13 @@
 <div class="newses-wrap">
 	<div class="mbox">
 		<div class="newses cfix-after">
-			<h2>Новости</h2>
-			<div class="news-list">
-				<div class="news-wrap">
+			<div class="h2-wrap animate-section">
+				<div class="h2 animate-it">
+					<h2><span>Новости</span></h2>
+				</div>
+			</div>
+			<div class="news-list animate-section">
+				<div class="news-wrap animate-delay">
 					<div class="news">
 						<div class="news-img">
 							<img src="images/newsimg.jpg" alt=""/>
@@ -17,7 +21,7 @@
 						<a href="#" class="news-readmore">Смотреть полностью <span>→</span></a>
 					</div>
 				</div>
-				<div class="news-wrap">
+				<div class="news-wrap animate-delay">
 					<div class="news">
 						<div class="news-img">
 							<img src="images/newsimg.jpg" alt=""/>
@@ -31,7 +35,7 @@
 						<a href="#" class="news-readmore">Смотреть полностью <span>→</span></a>
 					</div>
 				</div>
-				<div class="news-wrap">
+				<div class="news-wrap animate-delay">
 					<div class="news">
 						<div class="news-img">
 							<img src="images/newsimg.jpg" alt=""/>
