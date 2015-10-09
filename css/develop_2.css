@@ -253,9 +253,33 @@
   font-family: 'calibri';
   font-size: 19px;
   font-weight: 200;
+  transition: all ease 1s;
+  text-decoration: none;
+  position: relative;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  overflow: hidden;
+}
+
+.vacancy-wrap .convert-more .more-vacancy:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #a98352;
+  height: 2px;
+  transition-property: left, right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 
 .vacancy-wrap .convert-more .more-vacancy:hover {
   cursor: pointer;
-  text-decoration: underline;
+}
+
+.vacancy-wrap .convert-more .more-vacancy:hover:after {
+  left: 0;
+  right: 0;
 }
