@@ -1,6 +1,6 @@
 /* top bottom form */
-.top-form-section {background-image: url(../images/section-top-form.jpg);
-	.top-form-wrap{background-image: url(../images/bgcircle.png);background-repeat: no-repeat;background-position: 100% 50%;position: relative;
+.top-form-section {background-image: url(../images/section-top-form.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;
+	.top-form-wrap{background-image: url(../images/bgcircle.png);background-repeat: no-repeat;background-position: 100% 100%;position: relative;
 		.mbox{
 			.top-form{
 				.content-top-form{text-align: center;padding: 55px 40px 63px 40px;
@@ -111,7 +111,7 @@ form{
 /* top-form-section */
 
 .main-wrap{
-	.top-form-section{background-image: url(../images/section-top-form.jpg);background-repeat: no-repeat;background-position: center;
+	.top-form-section{background-image: url(../images/section-top-form.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;
 		.top-form-wrap{background-image: none;}
 	}
 }

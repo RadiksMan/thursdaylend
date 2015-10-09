@@ -1,12 +1,15 @@
 /* top bottom form */
 .top-form-section {
   background-image: url(../images/section-top-form.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .top-form-section .top-form-wrap {
   background-image: url(../images/bgcircle.png);
   background-repeat: no-repeat;
-  background-position: 100% 50%;
+  background-position: 100% 100%;
   position: relative;
 }
 
@@ -361,6 +364,7 @@ form .input-wrap-submit:hover {
   background-image: url(../images/section-top-form.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .main-wrap .top-form-section .top-form-wrap {
