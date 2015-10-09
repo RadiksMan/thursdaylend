@@ -112,19 +112,21 @@ function animationBlock(item){
 
 function valueShow(){
 	$('.timer-wrap').each(function() {
-		if($(this).is('.animated')){
-			console.log('s');
-			var timer = $(this).find('timer');
+		if($(this).is('.animated:not(.timered)')){
+			$(this).addClass('timered');
+
+			var timer = $(this).find('.timer');
 			var timerValue = timer.data('value');
-			var dataIntervalTime = parseInt(5000/timerValue);
+			var dataIntervalTime = 2000/timerValue;
 			var point = 0;
+
 			var timerId = setInterval(function(){
 				timer.text(point);
 				point++;
 				if(point>timerValue){
 					clearInterval(timerId);
 				}
-			},dataIntervalTime);
+			}, dataIntervalTime);
 		}
 	});
 }
@@ -140,6 +142,7 @@ $(document).ready(function() {
 $(window).load(function(){
 
 	animationBlock($('.animate-section'));
+	valueShow();
 
 });
 
