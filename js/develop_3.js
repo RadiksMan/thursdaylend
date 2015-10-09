@@ -93,11 +93,8 @@ function validationCall(){
 
         }
     });
-}
 
-function popNext(){
-    var form1 = $('.form-top');
-    var form2 = $('.form-bottom');
+    function popNext(){
     $.fancybox.open("#call_success",{
         padding:0,
         fitToView:false,
@@ -112,14 +109,17 @@ function popNext(){
     timer = setTimeout(function(){
         $.fancybox.close("#call_success");
     },2000);
-    form1.trigger("reset");
-    form2.trigger("reset");
+    $('form').trigger("reset");
+}
 }
 
 
+
+
+
 $(document).ready(function() {
-    validate('.form-top', {submitFunction:popNext});
-	validate('.form-bottom', {submitFunction:popNext});
+    validate('.form-top', {submitFunction:validationCall});
+	validate('.form-bottom', {submitFunction:validationCall});
     validate('.call-form', {submitFunction:validationCall});
 
 	inputNumber($('.phone'));
@@ -141,6 +141,16 @@ $(document).ready(function() {
       draggable:false,
       focusOnSelect:true
     });
+
+       $('.recmails').slick({
+       centerMode: true,
+      centerPadding: '0px',
+      slidesToShow: 3,
+      infinite: true,
+      draggable:false,
+      focusOnSelect:true
+    });
+    
 });
 
 

@@ -1,5 +1,5 @@
-<div class="results-wrap">
-	<div class="results">
+<div class="results-wrap animate-section">
+	<div class="results animate-it">
 		<div class="result-wrap">
 			<div class="result">
 				<div class="result-title-wrap">
