@@ -54,21 +54,14 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <!-- jScrollPane -->
 
-<!-- jandexMaps -->
-	<style>
-		.map1{width: 100%;height: 350px;}
-		.mapes{height: 350px;margin-bottom: 15px;}
-		.list{width: 200px;float: left;}
-		.list-item.hover{background-color: red;}
-		.checkboxes{float: right;margin-right: 10px;}
-		.checkboxes label{display: inline-block;margin-right: 10px;}
-		.clear{clear: both;}
-	</style>
-
-	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<script src="js/jandexMapsScr.js" type="text/javascript"></script>
-<!-- jandexMaps -->
-
+<!-- Google map -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+	var cordX = 55.822389;
+	var cordY= 37.647088;
+	var googleText = "Москва, Проспект Мира д. 150";
+</script>
+<!-- /Google map -->
 <!-- remove Files -->
 	<!--<script src="js/myalert.js" type="text/javascript"></script>
 	<script src="develop/autocssrenew.js" type="text/javascript"></script>-->
@@ -131,7 +124,7 @@
 							</a>
 						</div>
 					</div>
-					<?php if($act == "autsor"){?>
+					<?php if($act == "index"){?>
 						<div class="header-middle">
 							<div class="header-tab-top-title"><h3>Аутсорсинг</h3></div>
 							<div class="header-tab-wrap">
@@ -178,6 +171,102 @@
 										<span>Аутстаффинг</span>
 										<span class="icon icon-pagination-right"></span>
 									</a>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
+					<?php if($act == "autstaf"){?>
+						<div class="header-middle">
+							<div class="header-tab-top-title"><h3>Aутстаффинг</h3></div>
+							<div class="header-tab-wrap">
+								<div class="header-tab-top">
+									<div class="header-tab-top-item">
+										<div class="header-tab-top-desc">
+											<p>Аутстаффинг — предоставления в распоряжение заказчика определенного количества работников, не вступающих с ним в какие-либо правовые отношения (гражданско-правовые, трудовые) напрямую,но оказывающих от имени исполнителя определенные услуги (работы) по месту нахождения заказчика.Его синонимами принято считать такие понятия, как аренда или лизинг персонала, заемный труд.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header-pagination">
+							<div class="header-pagination-wrap cfix-after">
+								<div class="header-pagination-left">
+									<a href="#">
+										<span class="icon icon-pagination-left"></span>
+										<span>Aутсорсинг</span>
+									</a>
+								</div>
+								<div class="header-pagination-right">
+									<a href="#">
+										<span>Mерчендайзинг</span>
+										<span class="icon icon-pagination-right"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
+					<?php if($act == "merchen"){?>
+						<div class="header-middle">
+							<div class="header-tab-top-title"><h3>МЕрчендайзинг</h3></div>
+							<div class="header-tab-wrap">
+								<div class="header-tab-top">
+									<div class="header-tab-top-item">
+										<div class="header-tab-top-desc">
+											<p>Компания MAINFORT работает во всех категориях мерчендайзинга:</p>
+										</div>
+										<div class="header-tab-top-subdesc">
+											<p>Стационарный: (эксклюзивный и совмещенный)</p>
+											<p>Маршрутный: (эксклюзивный и совмещенный)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header-pagination">
+							<div class="header-pagination-wrap cfix-after">
+								<div class="header-pagination-left">
+									<a href="#">
+										<span class="icon icon-pagination-left"></span>
+										<span>Aутсорсинг</span>
+									</a>
+								</div>
+								<div class="header-pagination-right">
+									<a href="#">
+										<span>Аутстаффинг</span>
+										<span class="icon icon-pagination-right"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
+					<?php if($act == "main"){?>
+						<div class="header-middle">
+							<div class="main-logo">
+								<img src="images/main-logo.png" alt="" title="">
+							</div>
+							<div class="main-navigation">
+								<div class="main-navigation-wrap cfix-after">
+									<div class="main-navigation-item-wrap item-wrap-1">
+										<a href="#">
+											<div class="main-navigation-item">
+												<span>Мерчендайзинг</span>
+											</div>
+										</a>
+									</div>
+									<div class="main-navigation-item-wrap item-wrap-2">
+										<a href="#">
+											<div class="main-navigation-item">
+												<span>аутсорсинг</span>
+											</div>
+										</a>
+									</div>
+									<div class="main-navigation-item-wrap item-wrap-3">
+										<a href="#">
+											<div class="main-navigation-item">
+												<span>Аутстаффинг</span>
+											</div>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>

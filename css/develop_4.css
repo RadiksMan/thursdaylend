@@ -1,12 +1,122 @@
 /*header*/
-header .header-wrap {
+header.index .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-autsor-bg.jpg") center center no-repeat;
+}
+
+header.autstaf .header-wrap {
+  background-color: #0b2839;
+  background: url("../images/header-autstaf-bg.jpg") center center no-repeat;
+  background-size: 100% 100%;
+}
+
+header.merchen .header-wrap {
+  background-color: #0b2839;
+  background: url("../images/header-merchen-bg.jpg") center center no-repeat;
+  background-size: 100% 100%;
+}
+
+header.merchen .header-tab-top-subdesc {
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+header.main .header-wrap {
+  background-color: #0b2839;
+  background: url("../images/header-main-bg.jpg") center center no-repeat;
+  background-size: 100% 100%;
+}
+
+header.main .header-inside {
+  min-height: 938px;
+}
+
+header.main .main-logo {
+  text-align: center;
+}
+
+header.main .main-logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header.main .header-middle {
+  padding-top: 140px;
+}
+
+header.main .main-navigation-wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 180px;
+}
+
+header.main .main-navigation-item-wrap {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+header.main .main-navigation-item-wrap.item-wrap-1 {
+  text-align: left;
+}
+
+header.main .main-navigation-item-wrap.item-wrap-3 {
+  text-align: right;
+}
+
+header.main .main-navigation-item-wrap a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+header.main .main-navigation-item {
+  display: inline-block;
+  width: 270px;
+  border: 3px solid #a98352;
+  text-align: center;
+  padding: 18px 0px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+header.main .main-navigation-item:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-color: #a98352;
+  border-style: solid;
+  border-width: 0;
+  transition-property: border-width;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+header.main .main-navigation-item:hover:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 2px;
 }
 
 header .header-inside {
   min-height: 945px;
   position: relative;
+}
+
+header .header-top {
+  padding-top: 9px;
 }
 
 header .header-top .header-logo {
@@ -28,12 +138,7 @@ header .header-top .header-nav li {
   float: left;
   width: 25%;
   text-align: center;
-  border-bottom: 1px solid transparent;
   transition: all ease 0.2s;
-}
-
-header .header-top .header-nav li:hover {
-  border-bottom: 1px solid #a98352;
 }
 
 header .header-top .header-nav a {
@@ -43,6 +148,29 @@ header .header-top .header-nav a {
   font-size: 14px;
   color: #fff;
   text-decoration: none;
+  position: relative;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  overflow: hidden;
+}
+
+header .header-top .header-nav a:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #a98352;
+  height: 2px;
+  transition-property: left, right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+header .header-top .header-nav a:hover:after {
+  left: 0;
+  right: 0;
 }
 
 header .header-top .header-tel {
@@ -53,7 +181,7 @@ header .header-top .header-tel a {
   color: #fff;
   font-size: 22px;
   text-decoration: none;
-  padding-top: 18px;
+  padding-top: 19px;
   display: block;
 }
 
@@ -63,7 +191,12 @@ header .header-sub-top-zvonok {
 }
 
 header .header-sub-top-zvonok a {
-  text-decoration: underline;
+  display: block;
+  text-decoration: none;
+}
+
+header .header-sub-top-zvonok a:hover span:not(.icon-head-tel) {
+  border-bottom: 1px solid transparent;
 }
 
 header .header-sub-top-zvonok .icon-head-tel {
@@ -73,6 +206,7 @@ header .header-sub-top-zvonok .icon-head-tel {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
+  border-bottom: none;
 }
 
 header .header-sub-top-zvonok span {
@@ -81,12 +215,15 @@ header .header-sub-top-zvonok span {
   font-size: 19px;
   vertical-align: middle;
   text-transform: uppercase;
+  border-bottom: 1px solid white;
+  transition: all ease 0.2s;
+  line-height: 21px;
 }
 
 header .header-middle {
   text-align: center;
   color: #fff;
-  padding-top: 190px;
+  padding-top: 196px;
   padding-bottom: 75px;
 }
 
@@ -274,4 +411,29 @@ header .header-pagination .icon-pagination-left, header .header-pagination .icon
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
+}
+
+/*/header*/
+/*main-footer*/
+.footer-contact .footer-contact-wrap {
+  height: 760px;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-contact .footer-contact-top {
+  height: 395px;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  background: url("../images/footer-contact-top-bg.png") center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.footer-contact #footer-contact-map-wrap {
+  height: 1200px;
+}
+
+.footer-contact .gmnoprint {
+  display: none;
 }
