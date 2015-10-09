@@ -77,6 +77,18 @@
   color: #707070;
 }
 
+.benefit-first .row .benefit-item {
+  width: 28%;
+}
+
+.benefit-second .row .benefit-item {
+  width: 20%;
+}
+
+.benefit-third .row .benefit-item {
+  width: 20%;
+}
+
 .benefit-wrap-all {
   padding-top: 65px;
   padding-bottom: 25px;
@@ -97,7 +109,6 @@
 
 .benefit-wrap-all .benefit-box .row .benefit-item {
   display: inline-block;
-  width: 28%;
   text-align: left;
   vertical-align: top;
   margin-left: 60px;
@@ -123,6 +134,7 @@
 .benefit-wrap-all .benefit-box .row .benefit-item img {
   padding-top: 20px;
   padding-bottom: 6px;
+  height: 100px;
 }
 
 .benefit-wrap-all .benefit-box .row .benefit-item .line {
@@ -133,7 +145,7 @@
 
 .benefit-wrap-all .benefit-box .row .benefit-item .name {
   font-family: 'calibri';
-  font-size: 36px;
+  font-size: 29px;
   padding-bottom: 12px;
 }
 

@@ -1,4 +1,4 @@
-<div class="benefit-box ">
+<div class="benefit-box benefit-first">
 
     <div class="row  animate-section" >
         <div class="benefit-item animate-it">
@@ -9,7 +9,7 @@
         </div>
         <div class="benefit-item animate-it">
             <img src="images/benefit-img2.png " alt="">
-            <div class="name"> Географеия </div>
+            <div class="name"> География </div>
             <div class="line"></div>
             <div class="content">Покрытие по всей России более 35 городов.</div>
         </div>
