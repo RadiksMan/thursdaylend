@@ -5,7 +5,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 
-	<meta id="viewport" name="viewport" content="width=1280, user-scalable=no">
+	<meta id="viewport" name="viewport" content="width=1280">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 

@@ -1,6 +1,6 @@
 <div class="review-wrap">
-    <div class="review-box">
-        <div class="review">
+    <div class="review-box animate-section">
+        <div class="review animate-it">
             <div class="human-face"> <img src="images/imgface1.png" alt="">  </div>
             <div class="converttext">
                 <div class="name"> Мармеладов Порфирий</div>
@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class="review">
+        <div class="review animate-it">
             <div class="human-face"> <img src="images/imgface2.png" alt=""></div>
             <div class="converttext">
                 <div class="name"> Лебезятникова Пульхерия </div>
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="review">
+        <div class="review animate-it">
             <div class="human-face"> <img src="images/imgface3.png" alt=""></div>
             <div class="converttext">
                 <div class="name">Раскольников Родион </div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div class="review">
+        <div class="review animate-it">
             <div class="human-face"> <img src="images/imgface4.png" alt=""> </div>
             <div class="converttext">
                 <div class="name"> Свидригайлов Аркадий </div>
