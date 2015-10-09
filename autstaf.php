@@ -1,6 +1,6 @@
     <div class="main">
 
-        <section class="animate-section">
+        <section class="animate-section top-form-section">
             <? partial('topform'); ?>
         </section>
 
@@ -167,7 +167,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="result-slider">
             <div class="mbox animate-section">
                 <div class="title animate-it"><span>результаты</span></div>
             </div>
@@ -183,7 +183,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="animate-section top-form-section">
             <? partial('bottomform'); ?>
         </section>
 
