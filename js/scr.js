@@ -45,18 +45,42 @@ function u_tabs(link, block) {
 	$(link).eq(0).click();
 }
 
+
 /* scrollUp */
 function scrollUp(block,targetBlock) {
+    console.log('eeeeeeeeeeeeeeee');
+    $(block).click(function(e){
+        var target = $(targetBlock).offset().top;
 
-	$(block).click(function(e){
-		var target = $(targetBlock).offset().top;
+        $(scroller).animate({scrollTop:target},800);
+        return false;
 
-		$(scroller).animate({scrollTop:target},800);
-		return false;
+        e.preventDefault();
+    });
 
-		e.preventDefault();
-	});
+    function showHideScrollUp(){
+        if($('body').scrollTop()>($(window).height()/4)){
+            console.log('123');
+            $(block).addClass('active');
+        }
+        else{
+            $(block).removeClass('active');
+        }
+    }
+
+    showHideScrollUp();
+
+    $(window).resize(function(){
+        showHideScrollUp();
+    });
+
+    $(window).scroll(function(){
+        showHideScrollUp();
+    });
+
+
 }
+
 
 
 function initScrollpane(){
@@ -155,6 +179,8 @@ $(document).ready(function() {
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
 	oneHeightItems();
+
+    scrollUp('.scroll-top','body');
 
 });
 
