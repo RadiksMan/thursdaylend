@@ -123,7 +123,8 @@ p{margin:0;}
 
 
 /*Layout*/
-.main{}
+header{position: relative !important;z-index: 5 !important;}
+.main,.main-wrap{position: relative;z-index: 1;}
 .main .sidebar_w{width:180px;float:left;}
 .main .sidebar{margin:0;}
 

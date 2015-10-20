@@ -47,5 +47,9 @@
     		</div>
         </div>
 	</footer>
+    <div class="scroll-top">
+        <div class="scroll-top-img"></div>
+        <div class="scroll-top-text">НАВЕРХ</div>
+    </div>
 </body>
 </html>

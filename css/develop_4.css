@@ -27,7 +27,7 @@ header.merchen .header-tab-top-subdesc {
 header.main .header-wrap {
   background-color: #0b2839;
   background: url("../images/header-main-bg.jpg") center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 header.main .header-inside {
@@ -44,7 +44,7 @@ header.main .main-logo img {
 }
 
 header.main .header-middle {
-  padding-top: 140px;
+  padding-top: 267px;
 }
 
 header.main .main-navigation-wrap {
@@ -226,7 +226,7 @@ header .header-sub-top-zvonok span {
 header .header-middle {
   text-align: center;
   color: #fff;
-  padding-top: 196px;
+  padding-top: 323px;
   padding-bottom: 75px;
 }
 
@@ -546,4 +546,104 @@ header .header-pagination .icon-pagination-left, header .header-pagination .icon
 
 .footer-contact .gmnoprint {
   display: none;
+}
+
+/*scroll up*/
+.scroll-top {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  cursor: pointer;
+  z-index: 3;
+  display: none;
+  text-align: center;
+}
+
+.scroll-top.active {
+  display: block;
+}
+
+.scroll-top .scroll-top-img {
+  width: 47px;
+  height: 47px;
+  background-image: url(../images/go-top-img.png);
+  margin: 0 auto 10px auto;
+  background-size: 100%;
+}
+
+.scroll-top .scroll-top-text {
+  font-family: 'Open Sans', sans-serif;
+  color: #b3b3b3;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.scroll-top:hover .scroll-top-img {
+  background-position: left bottom;
+}
+
+.scroll-top:hover .scroll-top-text {
+  color: #955C09;
+}
+
+/*/scroll up*/
+/*header fixed*/
+.header_fixed {
+  transition: all ease-out 0.2s;
+  position: relative;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-bottom: 20px;
+}
+
+.header_fixed.active {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.header_fixed .header-top, .header_fixed .header-sub-top {
+  width: 1280px;
+  margin: 0 auto;
+  transition: background-color ease-out 0.2s;
+}
+
+@media screen and (max-width: 1366px) {
+  header.main .header-inside {
+    min-height: 649px;
+  }
+  .header .header-inside {
+    min-height: 667px;
+  }
+  header.main .header-middle, header .header-middle {
+    padding-top: 160px;
+  }
+  header .header-middle {
+    padding-bottom: 43px;
+  }
+  .header.main .main-navigation-wrap {
+    padding-top: 142px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header_fixed {
+    overflow: hidden;
+  }
+  .header.main .header-wrap {
+    overflow: hidden;
+  }
+  .header_fixed .header-top, .header_fixed .header-sub-top {
+    width: auto;
+  }
+  header .header-top .header-tel {
+    padding-right: 20px;
+  }
+  header .header-sub-top-zvonok {
+    padding-right: 20px;
+  }
 }
