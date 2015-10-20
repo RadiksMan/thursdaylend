@@ -102,7 +102,13 @@
 				<div class="header-inside">
 					<div class="header-top cfix-after">
 						<div class="header-logo">
-							<img src="images/logo.png" alt="">
+							<?if($act != 'index'){?>
+							<a href="index.html">
+							<?}?>
+							<img src="images/logo.png" alt="" />
+							<? if($act != 'index'){?>
+							</a>
+							<?}?>
 						</div>
 						<div class="header-nav">
 								<ul class="cfix-after">

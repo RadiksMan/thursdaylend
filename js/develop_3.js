@@ -75,7 +75,7 @@ function validate(form, options){
 function validationCall(form){
 
   var thisForm = $(form);
-  var formSur = $('.call-form').serialize();
+  var formSur = thisForm.serialize();
 
     $.ajax({
         url : thisForm.attr('action'),
@@ -94,22 +94,24 @@ function validationCall(form){
     });
 
     function popNext(){
-    $.fancybox.open("#call_success",{
-        padding:0,
-        fitToView:false,
-        wrapCSS:"call-popup",
-        autoSize:true,
-        afterClose: function(){
-            clearTimeout(timer);
-        }
-    });
-    var timer = null;
+        $.fancybox.open("#call_success",{
+            padding:0,
+            fitToView:false,
+            wrapCSS:"call-popup",
+            autoSize:true,
+            afterClose: function(){
+                $('form').trigger("reset");
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
 
-    timer = setTimeout(function(){
-        $.fancybox.close("#call_success");
-    },2000);
-    $('form').trigger("reset");
-}
+        timer = setTimeout(function(){
+            $('form').trigger("reset");
+            $.fancybox.close("#call_success");
+        },2000);
+
+    }
 }
 
 
